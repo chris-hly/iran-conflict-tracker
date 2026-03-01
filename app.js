@@ -19,17 +19,39 @@ function renderData(data) {
         document.getElementById('oilPrice').textContent = data.status.oilPrice || '↑ 飙升中';
     }
     
-    const timelineHtml = data.timeline.map(item => `
-        <div class="timeline-item">
-            <div class="date">${item.date}</div>
-            <div class="event">${item.event}</div>
-        </div>
-    `).join('');
+    // 时间线（支持链接）
+    const timelineHtml = data.timeline.map(item => {
+        const eventText = item.link 
+            ? `<a href="${item.link}" target="_blank" rel="noopener">${item.event} 🔗</a>` 
+            : item.event;
+        return `
+            <div class="timeline-item">
+                <div class="date">${item.date}</div>
+                <div class="event">${eventText}</div>
+            </div>
+        `;
+    }).join('');
     document.getElementById('timelineContainer').innerHTML = timelineHtml;
     
-    document.getElementById('usActions').innerHTML = data.usActions.map(a => `<li>${a}</li>`).join('');
-    document.getElementById('iranActions').innerHTML = data.iranActions.map(a => `<li>${a}</li>`).join('');
+    // 美国动态（支持链接）
+    const usHtml = data.usActions.map(a => {
+        if (typeof a === 'string') return `<li>${a}</li>`;
+        return a.link 
+            ? `<li><a href="${a.link}" target="_blank" rel="noopener">${a.text}</a></li>`
+            : `<li>${a.text}</li>`;
+    }).join('');
+    document.getElementById('usActions').innerHTML = usHtml;
     
+    // 伊朗动态（支持链接）
+    const iranHtml = data.iranActions.map(a => {
+        if (typeof a === 'string') return `<li>${a}</li>`;
+        return a.link 
+            ? `<li><a href="${a.link}" target="_blank" rel="noopener">${a.text}</a></li>`
+            : `<li>${a.text}</li>`;
+    }).join('');
+    document.getElementById('iranActions').innerHTML = iranHtml;
+    
+    // 全球影响
     const impactHtml = data.impacts.map(i => `
         <div class="impact-item">
             <div class="label">${i.label}</div>
@@ -38,12 +60,18 @@ function renderData(data) {
     `).join('');
     document.getElementById('impactGrid').innerHTML = impactHtml;
     
-    const statementsHtml = data.statements.map(s => `
-        <div class="statement">
-            <div class="country">${s.country}</div>
-            <div class="content">${s.content}</div>
-        </div>
-    `).join('');
+    // 各方表态（支持链接）
+    const statementsHtml = data.statements.map(s => {
+        const content = s.link 
+            ? `<a href="${s.link}" target="_blank" rel="noopener">${s.content}</a>`
+            : s.content;
+        return `
+            <div class="statement">
+                <div class="country">${s.country}</div>
+                <div class="content">${content}</div>
+            </div>
+        `;
+    }).join('');
     document.getElementById('statements').innerHTML = statementsHtml;
 }
 

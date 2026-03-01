@@ -222,3 +222,42 @@ footer code {
     .status-bar { flex-direction: column; }
     .container { padding: 15px; }
 }
+
+/* 链接样式 */
+a {
+    color: #4ecdc4;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+a:hover {
+    color: #6ee7df;
+    text-decoration: underline;
+}
+
+.card li a {
+    color: #4ecdc4;
+}
+
+.card li a:hover {
+    color: #6ee7df;
+}
+
+.timeline-item .event a {
+    color: #fff;
+    border-bottom: 1px dashed #4ecdc4;
+}
+
+.timeline-item .event a:hover {
+    color: #4ecdc4;
+    border-bottom-style: solid;
+}
+
+.statement .content a {
+    color: #ccc;
+    border-bottom: 1px dashed #4ecdc4;
+}
+
+.statement .content a:hover {
+    color: #4ecdc4;
+}
