@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026年3月1日 12:15 (GMT+8)",
+  "updateTime": "2026年03月01日 15:00 (GMT+8)",
   "status": {
     "alertLevel": "严重",
     "straitStatus": "已封锁",
@@ -53,26 +53,78 @@
     }
   ],
   "usActions": [
-    { "text": "2月28日 16:00 - 特朗普宣布对伊朗「重大作战行动」", "link": "https://www.whitehouse.gov" },
-    { "text": "2月28日 约15:30 - 联合以色列空袭德黑兰30+目标", "link": "https://www.reuters.com" },
-    { "text": "打击目标：总统府、最高领袖办公室、情报与国家安全部", "link": "https://www.bbc.com/zhongwen" },
-    { "text": "战略目标：推翻伊朗政权（内塔尼亚胡表态）", "link": "https://www.reuters.com" },
-    { "text": "福特号、林肯号双航母战斗群部署中东", "link": "https://www.navy.mil" },
-    { "text": "从卡塔尔、巴林基地撤离部分人员", "link": "https://www.defense.gov" }
+    {
+      "text": "2月28日 16:00 - 特朗普宣布对伊朗「重大作战行动」",
+      "link": "https://www.whitehouse.gov"
+    },
+    {
+      "text": "2月28日 约15:30 - 联合以色列空袭德黑兰30+目标",
+      "link": "https://www.reuters.com"
+    },
+    {
+      "text": "打击目标：总统府、最高领袖办公室、情报与国家安全部",
+      "link": "https://www.bbc.com/zhongwen"
+    },
+    {
+      "text": "战略目标：推翻伊朗政权（内塔尼亚胡表态）",
+      "link": "https://www.reuters.com"
+    },
+    {
+      "text": "福特号、林肯号双航母战斗群部署中东",
+      "link": "https://www.navy.mil"
+    },
+    {
+      "text": "从卡塔尔、巴林基地撤离部分人员",
+      "link": "https://www.defense.gov"
+    }
   ],
   "iranActions": [
-    { "text": "2月28日 约18:00 - 空袭后2小时开始弹道导弹反击", "link": "https://www.bbc.com/zhongwen" },
-    { "text": "2月28日 约20:00 - 向以色列发射125枚导弹，35枚突防", "link": "https://news.cctv.com" },
-    { "text": "2月28日 约22:00 - 袭击美军中东基地，200名美军伤亡（伊朗称）", "link": "https://www.bbc.com/zhongwen" },
-    { "text": "3月1日 06:02 - 宣布封锁霍尔木兹海峡", "link": "https://news.cctv.com" },
-    { "text": "最高领袖哈梅内伊：若美国挑起战争，将是全地区性战争", "link": "https://en.irna.ir" },
-    { "text": "革命卫队进入全面战备状态", "link": "https://www.bbc.com/zhongwen" }
+    {
+      "text": "2月28日 约18:00 - 空袭后2小时开始弹道导弹反击",
+      "link": "https://www.bbc.com/zhongwen"
+    },
+    {
+      "text": "2月28日 约20:00 - 向以色列发射125枚导弹，35枚突防",
+      "link": "https://news.cctv.com"
+    },
+    {
+      "text": "2月28日 约22:00 - 袭击美军中东基地，200名美军伤亡（伊朗称）",
+      "link": "https://www.bbc.com/zhongwen"
+    },
+    {
+      "text": "3月1日 06:02 - 宣布封锁霍尔木兹海峡",
+      "link": "https://news.cctv.com"
+    },
+    {
+      "text": "最高领袖哈梅内伊：若美国挑起战争，将是全地区性战争",
+      "link": "https://en.irna.ir"
+    },
+    {
+      "text": "革命卫队进入全面战备状态",
+      "link": "https://www.bbc.com/zhongwen"
+    }
   ],
   "impacts": [
-    { "label": "原油", "value": "↑ 暴涨", "trend": "up" },
-    { "label": "股市", "value": "↓ 下跌", "trend": "down" },
-    { "label": "黄金", "value": "↑ 飙升", "trend": "up" },
-    { "label": "能源危机", "value": "高风险", "trend": "up" }
+    {
+      "label": "原油",
+      "value": "↑ 暴涨",
+      "trend": "up"
+    },
+    {
+      "label": "股市",
+      "value": "↓ 下跌",
+      "trend": "down"
+    },
+    {
+      "label": "黄金",
+      "value": "↑ 飙升",
+      "trend": "up"
+    },
+    {
+      "label": "能源危机",
+      "value": "高风险",
+      "trend": "up"
+    }
   ],
   "statements": [
     {
