@@ -1,8 +1,9 @@
 async function loadData() {
     try {
+        const cacheBust = '?t=' + Date.now();
         const [dataRes, sourcesRes] = await Promise.all([
-            fetch('data.json'),
-            fetch('sources.json')
+            fetch('data.json' + cacheBust),
+            fetch('sources.json' + cacheBust)
         ]);
         const data = await dataRes.json();
         const sources = await sourcesRes.json();
@@ -11,7 +12,7 @@ async function loadData() {
     } catch (error) {
         console.error('加载数据失败:', error);
         document.getElementById('timelineContainer').innerHTML = 
-            '<p style="color: #ff6b6b;">数据加载失败</p>';
+            '<p style="color: #ff6b6b;">数据加载失败: ' + error.message + '</p>';
     }
 }
 
@@ -43,7 +44,6 @@ function renderData(data) {
         document.getElementById('oilPrice').textContent = data.status.oilPrice || '↑ 飙升中';
     }
     
-    // 伊朗高层状态
     if (data.iranLeadershipStatus) {
         const leadershipHtml = data.iranLeadershipStatus.map(l => `
             <div class="leader-item ${l.status === '死亡' ? 'dead' : 'alive'}">
@@ -54,7 +54,6 @@ function renderData(data) {
         document.getElementById('leadershipStatus').innerHTML = leadershipHtml;
     }
     
-    // 时间线
     const timelineHtml = data.timeline.map(item => {
         const eventText = item.link 
             ? `<a href="${item.link}" target="_blank" rel="noopener">${item.event} 🔗</a>` 
@@ -68,7 +67,6 @@ function renderData(data) {
     }).join('');
     document.getElementById('timelineContainer').innerHTML = timelineHtml;
     
-    // 美国动态
     const usHtml = data.usActions.map(a => {
         if (typeof a === 'string') return `<li>${a}</li>`;
         return a.link 
@@ -77,7 +75,6 @@ function renderData(data) {
     }).join('');
     document.getElementById('usActions').innerHTML = usHtml;
     
-    // 伊朗动态
     const iranHtml = data.iranActions.map(a => {
         if (typeof a === 'string') return `<li>${a}</li>`;
         return a.link 
@@ -86,7 +83,6 @@ function renderData(data) {
     }).join('');
     document.getElementById('iranActions').innerHTML = iranHtml;
     
-    // 全球影响
     const impactHtml = data.impacts.map(i => `
         <div class="impact-item">
             <div class="label">${i.label}</div>
@@ -95,7 +91,6 @@ function renderData(data) {
     `).join('');
     document.getElementById('impactGrid').innerHTML = impactHtml;
     
-    // 各方表态
     const statementsHtml = data.statements.map(s => {
         const content = s.link 
             ? `<a href="${s.link}" target="_blank" rel="noopener">${s.content}</a>`
