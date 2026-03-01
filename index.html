@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>美伊冲突实时追踪</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔴 美伊冲突实时追踪</h1>
+            <p class="update-time">最后更新：<span id="updateTime">加载中...</span></p>
+        </header>
+
+        <section class="status-bar">
+            <div class="status-item critical">
+                <span class="status-label">局势等级</span>
+                <span class="status-value" id="alertLevel">严重</span>
+            </div>
+            <div class="status-item">
+                <span class="status-label">海峡状态</span>
+                <span class="status-value" id="straitStatus">已封锁</span>
+            </div>
+            <div class="status-item">
+                <span class="status-label">原油价格</span>
+                <span class="status-value up" id="oilPrice">↑ 飙升中</span>
+            </div>
+        </section>
+
+        <section class="timeline">
+            <h2>📋 事件时间线</h2>
+            <div id="timelineContainer"></div>
+        </section>
+
+        <section class="grid-section">
+            <div class="card">
+                <h3>🇺🇸 美国动态</h3>
+                <ul id="usActions"></ul>
+            </div>
+            <div class="card">
+                <h3>🇮🇷 伊朗动态</h3>
+                <ul id="iranActions"></ul>
+            </div>
+        </section>
+
+        <section class="card">
+            <h3>🌍 全球影响</h3>
+            <div class="impact-grid" id="impactGrid"></div>
+        </section>
+
+        <section class="card">
+            <h3>💬 各方表态</h3>
+            <div id="statements"></div>
+        </section>
+
+        <footer>
+            <p>数据来源：国际新闻媒体 | 仅供参考</p>
+            <p>更新方式：编辑 <code>data.json</code> 文件</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
