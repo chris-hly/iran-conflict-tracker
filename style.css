@@ -332,3 +332,47 @@ a:hover {
     padding: 2px 8px;
     border-radius: 4px;
 }
+
+/* 伊朗高层状态 */
+#leadershipStatus {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 10px;
+}
+
+.leader-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 15px;
+    border-radius: 8px;
+    background: rgba(0,0,0,0.2);
+}
+
+.leader-item.dead {
+    background: rgba(255, 0, 0, 0.15);
+    border-left: 3px solid #ff6b6b;
+}
+
+.leader-item.alive {
+    background: rgba(0, 255, 0, 0.1);
+    border-left: 3px solid #4ecdc4;
+}
+
+.leader-name {
+    font-weight: 500;
+    color: #fff;
+}
+
+.leader-status {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.leader-item.dead .leader-status {
+    color: #ff6b6b;
+}
+
+.leader-item.alive .leader-status {
+    color: #4ecdc4;
+}

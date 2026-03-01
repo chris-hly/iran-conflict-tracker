@@ -16,7 +16,6 @@ async function loadData() {
 }
 
 function renderSources(sources) {
-    // 新闻来源
     const sourcesHtml = sources.newsSources.map(s => `
         <a href="${s.url}" target="_blank" rel="noopener" class="source-link">
             ${s.icon} ${s.name}
@@ -24,7 +23,6 @@ function renderSources(sources) {
     `).join('');
     document.getElementById('sourcesList').innerHTML = sourcesHtml;
     
-    // 相关链接
     if (sources.referenceLinks && sources.referenceLinks.length > 0) {
         const linksHtml = sources.referenceLinks.map(l => `
             <div class="ref-link">
@@ -43,6 +41,17 @@ function renderData(data) {
         document.getElementById('alertLevel').textContent = data.status.alertLevel || '严重';
         document.getElementById('straitStatus').textContent = data.status.straitStatus || '已封锁';
         document.getElementById('oilPrice').textContent = data.status.oilPrice || '↑ 飙升中';
+    }
+    
+    // 伊朗高层状态
+    if (data.iranLeadershipStatus) {
+        const leadershipHtml = data.iranLeadershipStatus.map(l => `
+            <div class="leader-item ${l.status === '死亡' ? 'dead' : 'alive'}">
+                <span class="leader-name">${l.name}</span>
+                <span class="leader-status">${l.status === '死亡' ? '💀 死亡' : '✓ 存活'}</span>
+            </div>
+        `).join('');
+        document.getElementById('leadershipStatus').innerHTML = leadershipHtml;
     }
     
     // 时间线
