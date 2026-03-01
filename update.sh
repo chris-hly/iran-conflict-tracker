@@ -37,9 +37,10 @@ if command -v jq &> /dev/null; then
     log "已更新时间戳: $NOW"
 fi
 
-# 配置 git
+# 配置 git 使用 SSH
 git config user.email "qiang.fang@huilianyi.com" 2>/dev/null || true
 git config user.name "qiang.fang" 2>/dev/null || true
+git remote set-url origin git@github.com:chris-hly/iran-conflict-tracker.git 2>/dev/null || true
 
 # 提交并推送
 git add .
