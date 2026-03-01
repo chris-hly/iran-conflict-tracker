@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026年03月01日 17:00 (GMT+8)",
+  "updateTime": "2026年3月1日 17:03 (GMT+8)",
   "status": {
     "alertLevel": "严重",
     "straitStatus": "已封锁",
@@ -9,161 +9,91 @@
     {
       "date": "2026年3月1日 14:32",
       "event": "伊朗确认武装部队总参谋长、防长等高级将领遇袭身亡",
-      "link": "https://www.zhihu.com/question/2011401532428546379"
+      "link": "events/leadership-casualties.html"
     },
     {
       "date": "2026年3月1日 12:39",
       "event": "伊朗已袭击27个美军基地，导弹击中以军总参谋部",
-      "link": "https://www.zhihu.com/question/2011420605770131306"
+      "link": "events/iran-counterattack.html"
     },
     {
       "date": "2026年3月1日 11:07",
-      "event": "伊媒称哈梅内伊殉职后，由总统、司法部长和宪法监护委员会领导国家",
-      "link": "https://www.zhihu.com/question/2011398341477549476"
+      "event": "伊媒称哈梅内伊殉职后，由总统、司法部长领导国家",
+      "link": "events/hamenei-death.html"
     },
     {
       "date": "2026年3月1日 09:04",
       "event": "伊朗媒体证实哈梅内伊在领袖办公室工作岗位上殉职",
-      "link": "https://www.zhihu.com/question/2011275168778056258/answer/2011366140069303768"
+      "link": "events/hamenei-death.html"
     },
     {
       "date": "2026年3月1日 06:02",
       "event": "伊朗宣布封锁霍尔木兹海峡，禁止任何船只通过",
-      "link": "https://news.cctv.com"
+      "link": "events/strait-blockade.html"
     },
     {
       "date": "2026年2月28日 约22:00",
-      "event": "伊朗对美军中东基地发动大规模导弹袭击",
-      "link": "https://zhuanlan.zhihu.com/p/2011150044078837953"
+      "event": "伊朗对美军中东基地发动大规模导弹袭击（第六波）",
+      "link": "events/iran-counterattack.html"
     },
     {
       "date": "2026年2月28日 约20:00",
-      "event": "伊朗向以色列发射125枚弹道导弹，35枚进入以色列领空",
-      "link": "https://news.cctv.com"
+      "event": "伊朗向以色列发射125枚弹道导弹，35枚突防",
+      "link": "events/iran-counterattack.html"
     },
     {
       "date": "2026年2月28日 约18:00",
-      "event": "伊朗开始反击：空袭后约2小时发动弹道导弹还击",
-      "link": "https://www.bbc.com/zhongwen"
+      "event": "伊朗开始反击：空袭后约90分钟发动弹道导弹还击",
+      "link": "events/iran-counterattack.html"
     },
     {
       "date": "2026年2月28日 16:00",
       "event": "特朗普发布视频宣布对伊朗「重大作战行动」",
-      "link": "https://www.whitehouse.gov"
+      "link": "events/us-israel-strike.html"
     },
     {
       "date": "2026年2月28日 约15:30",
       "event": "美以联合空袭德黑兰：总统府、情报部等30+目标遭打击",
-      "link": "https://www.reuters.com"
+      "link": "events/us-israel-strike.html"
     },
     {
       "date": "2026年2月28日 上午",
       "event": "伊朗最高领袖哈梅内伊在领袖办公室遇袭身亡",
-      "link": "https://www.zhihu.com/question/2011275168778056258"
+      "link": "events/hamenei-death.html"
     },
     {
       "date": "2026年2月28日 15:00",
       "event": "德黑兰发生多起爆炸，以色列宣布对伊朗发动袭击",
-      "link": "https://news.cctv.com"
+      "link": "events/us-israel-strike.html"
     }
   ],
   "usActions": [
-    {
-      "text": "2月28日 16:00 - 特朗普宣布对伊朗「重大作战行动」",
-      "link": "https://www.whitehouse.gov"
-    },
-    {
-      "text": "2月28日 约15:30 - 联合以色列空袭德黑兰30+目标",
-      "link": "https://www.reuters.com"
-    },
-    {
-      "text": "打击目标：总统府、最高领袖办公室、情报与国家安全部",
-      "link": "https://www.bbc.com/zhongwen"
-    },
-    {
-      "text": "战略目标：推翻伊朗政权（内塔尼亚胡表态）",
-      "link": "https://www.reuters.com"
-    },
-    {
-      "text": "福特号、林肯号双航母战斗群部署中东",
-      "link": "https://www.navy.mil"
-    }
+    { "text": "2月28日 16:00 - 特朗普宣布对伊朗「重大作战行动」", "link": "events/us-israel-strike.html" },
+    { "text": "2月28日 约15:30 - 联合以色列空袭德黑兰30+目标", "link": "events/us-israel-strike.html" },
+    { "text": "打击目标：总统府、最高领袖办公室、情报与国家安全部", "link": "events/us-israel-strike.html" },
+    { "text": "战略目标：推翻伊朗政权（内塔尼亚胡表态）", "link": "events/us-israel-strike.html" },
+    { "text": "福特号、林肯号双航母战斗群部署中东", "link": "https://www.navy.mil" }
   ],
   "iranActions": [
-    {
-      "text": "2月28日 - 最高领袖哈梅内伊遇袭身亡",
-      "link": "https://www.zhihu.com/question/2011275168778056258"
-    },
-    {
-      "text": "2月28日 约18:00 - 空袭后2小时开始弹道导弹反击",
-      "link": "https://www.bbc.com/zhongwen"
-    },
-    {
-      "text": "3月1日 12:39 - 袭击27个美军基地，导弹击中以军总参谋部",
-      "link": "https://www.zhihu.com/question/2011420605770131306"
-    },
-    {
-      "text": "3月1日 06:02 - 宣布封锁霍尔木兹海峡",
-      "link": "https://news.cctv.com"
-    },
-    {
-      "text": "伊朗宣布为期40天的全国哀悼",
-      "link": "https://www.zhihu.com/question/2011275168778056258"
-    }
+    { "text": "2月28日 - 最高领袖哈梅内伊遇袭身亡", "link": "events/hamenei-death.html" },
+    { "text": "2月28日 约18:00 - 空袭后90分钟开始弹道导弹反击", "link": "events/iran-counterattack.html" },
+    { "text": "3月1日 12:39 - 袭击27个美军基地，导弹击中以军总参谋部", "link": "events/iran-counterattack.html" },
+    { "text": "3月1日 06:02 - 宣布封锁霍尔木兹海峡", "link": "events/strait-blockade.html" },
+    { "text": "伊朗宣布为期40天的全国哀悼", "link": "events/hamenei-death.html" }
   ],
   "iranLeadershipStatus": [
-    {
-      "name": "哈梅内伊（最高领袖）",
-      "status": "死亡",
-      "link": "https://www.zhihu.com/question/2011275168778056258"
-    },
-    {
-      "name": "拉里贾尼（最高安全委员会秘书）",
-      "status": "存活",
-      "link": "https://www.zhihu.com/question/2011275168778056258"
-    },
-    {
-      "name": "卡利巴夫（议会议长）",
-      "status": "存活",
-      "link": "https://www.zhihu.com/question/2011275168778056258"
-    },
-    {
-      "name": "穆萨维（武装部队总参谋长）",
-      "status": "死亡",
-      "link": "https://www.zhihu.com/question/2011401532428546379"
-    },
-    {
-      "name": "沙姆哈尼（国防委员会秘书）",
-      "status": "死亡",
-      "link": "https://www.zhihu.com/question/2011401532428546379"
-    },
-    {
-      "name": "帕克普尔（革命卫队总司令）",
-      "status": "死亡",
-      "link": "https://www.zhihu.com/question/2011275168778056258"
-    }
+    { "name": "哈梅内伊（最高领袖）", "status": "死亡", "link": "events/hamenei-death.html" },
+    { "name": "拉里贾尼（最高安全委员会秘书）", "status": "存活", "link": "events/leadership-casualties.html" },
+    { "name": "卡利巴夫（议会议长）", "status": "存活", "link": "events/leadership-casualties.html" },
+    { "name": "穆萨维（武装部队总参谋长）", "status": "死亡", "link": "events/leadership-casualties.html" },
+    { "name": "沙姆哈尼（国防委员会秘书）", "status": "死亡", "link": "events/leadership-casualties.html" },
+    { "name": "帕克普尔（革命卫队总司令）", "status": "死亡", "link": "events/leadership-casualties.html" }
   ],
   "impacts": [
-    {
-      "label": "原油",
-      "value": "↑ 暴涨",
-      "trend": "up"
-    },
-    {
-      "label": "股市",
-      "value": "↓ 下跌",
-      "trend": "down"
-    },
-    {
-      "label": "黄金",
-      "value": "↑ 飙升",
-      "trend": "up"
-    },
-    {
-      "label": "能源危机",
-      "value": "高风险",
-      "trend": "up"
-    }
+    { "label": "原油", "value": "↑ 暴涨", "trend": "up" },
+    { "label": "股市", "value": "↓ 下跌", "trend": "down" },
+    { "label": "黄金", "value": "↑ 飙升", "trend": "up" },
+    { "label": "能源危机", "value": "高风险", "trend": "up" }
   ],
   "statements": [
     {
@@ -174,12 +104,12 @@
     {
       "country": "🇺🇸 美国 - 特朗普",
       "content": "2月28日宣布对伊朗展开「重大作战行动」，称哈梅内伊已死，美以轰炸仍将继续。",
-      "link": "https://www.whitehouse.gov"
+      "link": "events/us-israel-strike.html"
     },
     {
       "country": "🇮🇷 伊朗",
       "content": "宣布自3月1日起开始为期40天的国家哀悼。哈梅内伊殉职后由总统、司法部长和宪法监护委员会领导国家。",
-      "link": "https://www.zhihu.com/question/2011398341477549476"
+      "link": "events/hamenei-death.html"
     }
   ]
 }
