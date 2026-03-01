@@ -1,0 +1,41 @@
+{
+  "newsSources": [
+    {
+      "name": "新华社",
+      "url": "https://www.xinhuanet.com/world/index.htm",
+      "icon": "📰"
+    },
+    {
+      "name": "央视新闻",
+      "url": "https://news.cctv.com/world/",
+      "icon": "📺"
+    },
+    {
+      "name": "BBC中文",
+      "url": "https://www.bbc.com/zhongwen/simp/world",
+      "icon": "🌐"
+    },
+    {
+      "name": "Reuters",
+      "url": "https://www.reuters.com/world/",
+      "icon": "🗞️"
+    },
+    {
+      "name": "知乎讨论",
+      "url": "https://www.zhihu.com/search?q=美伊冲突&type=content",
+      "icon": "💬"
+    },
+    {
+      "name": "微博热搜",
+      "url": "https://s.weibo.com/weibo?q=美伊冲突",
+      "icon": "🔥"
+    }
+  ],
+  "referenceLinks": [
+    {
+      "title": "美伊冲突专题",
+      "url": "https://news.cctv.com/special/iran/index.shtml",
+      "source": "央视新闻"
+    }
+  ]
+}

@@ -261,3 +261,74 @@ a:hover {
 .statement .content a:hover {
     color: #4ecdc4;
 }
+
+/* 新闻来源栏 */
+.sources-bar {
+    background: rgba(255,255,255,0.05);
+    border-radius: 12px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+.sources-bar h3 {
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+#sourcesList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.source-link {
+    background: rgba(0,0,0,0.3);
+    padding: 8px 15px;
+    border-radius: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+.source-link:hover {
+    background: rgba(78, 205, 196, 0.2);
+    border-color: rgba(78, 205, 196, 0.5);
+    color: #4ecdc4;
+}
+
+/* 相关链接 */
+#relatedLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ref-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background: rgba(0,0,0,0.2);
+    border-radius: 8px;
+}
+
+.ref-link a {
+    color: #4ecdc4;
+    text-decoration: none;
+    flex: 1;
+}
+
+.ref-link a:hover {
+    text-decoration: underline;
+}
+
+.source-tag {
+    font-size: 0.75rem;
+    color: #888;
+    background: rgba(255,255,255,0.1);
+    padding: 2px 8px;
+    border-radius: 4px;
+}
