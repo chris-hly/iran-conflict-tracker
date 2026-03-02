@@ -1,11 +1,41 @@
 {
-  "updateTime": "2026年03月02日 15:00 (GMT+8)",
+  "updateTime": "2026年03月02日 15:50 (GMT+8)",
   "status": {
     "alertLevel": "严重",
     "straitStatus": "已封锁",
     "oilPrice": "↑ 飙升中"
   },
   "timeline": [
+    {
+      "date": "2026年3月2日 约15:00",
+      "event": "真主党加入战斗，以色列空袭黎巴嫩致31死149伤",
+      "link": "events/day3-escalation.html"
+    },
+    {
+      "date": "2026年3月2日 约14:00",
+      "event": "科威特美国大使馆遇袭起火，美发布紧急避难警告",
+      "link": "events/day3-escalation.html"
+    },
+    {
+      "date": "2026年3月2日 约12:00",
+      "event": "伊朗向以色列发射新一轮导弹，海湾城市传出爆炸声",
+      "link": "events/day3-escalation.html"
+    },
+    {
+      "date": "2026年3月2日",
+      "event": "美军确认3名士兵在与伊朗战斗中阵亡",
+      "link": "events/day3-escalation.html"
+    },
+    {
+      "date": "2026年3月2日",
+      "event": "特朗普：行动可能持续「四周或更短」，将继续直到达成所有目标",
+      "link": "events/day3-escalation.html"
+    },
+    {
+      "date": "2026年3月1日 23:46",
+      "event": "伊朗最高安全委员会秘书拉里贾尼：我们不会与美国谈判",
+      "link": "events/day3-escalation.html"
+    },
     {
       "date": "2026年3月1日 14:32",
       "event": "伊朗确认武装部队总参谋长、防长等高级将领遇袭身亡",
@@ -69,6 +99,14 @@
   ],
   "usActions": [
     {
+      "text": "3月2日 - 3名美军士兵在战斗中阵亡",
+      "link": "events/day3-escalation.html"
+    },
+    {
+      "text": "3月2日 - 特朗普：行动可能持续「四周或更短」",
+      "link": "events/day3-escalation.html"
+    },
+    {
       "text": "2月28日 16:00 - 特朗普宣布对伊朗「重大作战行动」",
       "link": "events/us-israel-strike.html"
     },
@@ -90,6 +128,18 @@
     }
   ],
   "iranActions": [
+    {
+      "text": "3月2日 - 持续向以色列发射导弹，海湾城市传爆炸声",
+      "link": "events/day3-escalation.html"
+    },
+    {
+      "text": "3月2日 - 袭击科威特美国大使馆",
+      "link": "events/day3-escalation.html"
+    },
+    {
+      "text": "3月2日 - 拉里贾尼宣布「不会与美国谈判」",
+      "link": "events/day3-escalation.html"
+    },
     {
       "text": "2月28日 - 最高领袖哈梅内伊遇袭身亡",
       "link": "events/hamenei-death.html"
@@ -143,6 +193,14 @@
       "link": "events/leadership-casualties.html"
     }
   ],
+  "regionalActors": [
+    {
+      "name": "真主党（黎巴嫩）",
+      "status": "已参战",
+      "actions": "3月2日向以色列发射导弹",
+      "link": "events/day3-escalation.html"
+    }
+  ],
   "impacts": [
     {
       "label": "原油",
@@ -173,13 +231,18 @@
     },
     {
       "country": "🇺🇸 美国 - 特朗普",
-      "content": "2月28日宣布对伊朗展开「重大作战行动」，称哈梅内伊已死，美以轰炸仍将继续。",
-      "link": "events/us-israel-strike.html"
+      "content": "3月2日：行动可能持续「四周或更短」，将继续直到达成所有目标。称大多数哈梅内伊继任者已在空袭中丧生。",
+      "link": "events/day3-escalation.html"
     },
     {
-      "country": "🇮🇷 伊朗",
-      "content": "宣布自3月1日起开始为期40天的国家哀悼。哈梅内伊殉职后由总统、司法部长和宪法监护委员会领导国家。",
-      "link": "events/hamenei-death.html"
+      "country": "🇮🇷 伊朗 - 拉里贾尼",
+      "content": "3月1日：我们不会与美国谈判。伊朗民族正在自卫，武装部队没有发起侵略。",
+      "link": "events/day3-escalation.html"
+    },
+    {
+      "country": "🇱🇧 真主党",
+      "content": "3月2日：向以色列发射导弹，回应哈梅内伊被杀和以色列的反复侵略。",
+      "link": "events/day3-escalation.html"
     }
   ]
 }
