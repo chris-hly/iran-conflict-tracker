@@ -1,11 +1,31 @@
 {
-  "updateTime": "2026年03月02日 23:03 (GMT+8)",
+  "updateTime": "2026年03月02日 23:55 (GMT+8)",
   "status": {
     "alertLevel": "严重",
     "straitStatus": "已封锁",
-    "oilPrice": "↑ 飙升中"
+    "oilPrice": "↑ 暴涨"
   },
   "timeline": [
+    {
+      "date": "2026年3月2日 约22:00",
+      "event": "【重大升级】沙特阿美Ras Tanura炼油厂遭伊朗无人机攻击，暂时关闭",
+      "link": "events/energy-escalation.html"
+    },
+    {
+      "date": "2026年3月2日 约21:00",
+      "event": "伊朗红新月会：全国555人在美以空袭中丧生，131座城市受影响",
+      "link": "events/energy-escalation.html"
+    },
+    {
+      "date": "2026年3月2日 约20:00",
+      "event": "科威特多架美军战机坠毁，飞行员全部幸存",
+      "link": "events/energy-escalation.html"
+    },
+    {
+      "date": "2026年3月2日",
+      "event": "联合国核监督机构：伊朗核设施暂未受损，未检测到辐射升高",
+      "link": "events/energy-escalation.html"
+    },
     {
       "date": "2026年3月2日 约15:00",
       "event": "真主党加入战斗，以色列空袭黎巴嫩致31死149伤",
@@ -99,6 +119,10 @@
   ],
   "usActions": [
     {
+      "text": "3月2日 - 科威特多架美军战机坠毁，飞行员幸存",
+      "link": "events/energy-escalation.html"
+    },
+    {
       "text": "3月2日 - 3名美军士兵在战斗中阵亡",
       "link": "events/day3-escalation.html"
     },
@@ -128,6 +152,10 @@
     }
   ],
   "iranActions": [
+    {
+      "text": "【重大】3月2日 - 伊朗无人机攻击沙特Ras Tanura炼油厂",
+      "link": "events/energy-escalation.html"
+    },
     {
       "text": "3月2日 - 持续向以色列发射导弹，海湾城市传爆炸声",
       "link": "events/day3-escalation.html"
@@ -199,6 +227,12 @@
       "status": "已参战",
       "actions": "3月2日向以色列发射导弹",
       "link": "events/day3-escalation.html"
+    },
+    {
+      "name": "沙特阿拉伯",
+      "status": "受攻击",
+      "actions": "Ras Tanura炼油厂遭伊朗无人机攻击",
+      "link": "events/energy-escalation.html"
     }
   ],
   "impacts": [
@@ -219,7 +253,7 @@
     },
     {
       "label": "能源危机",
-      "value": "高风险",
+      "value": "极高风险",
       "trend": "up"
     }
   ],
@@ -243,6 +277,11 @@
       "country": "🇱🇧 真主党",
       "content": "3月2日：向以色列发射导弹，回应哈梅内伊被杀和以色列的反复侵略。",
       "link": "events/day3-escalation.html"
+    },
+    {
+      "country": "🇺🇳 联合国 - IAEA",
+      "content": "3月2日：目前没有迹象表明伊朗核设施受损，未检测到辐射水平升高。警告军事行动可能造成严重核安全后果。",
+      "link": "events/energy-escalation.html"
     }
   ]
 }
