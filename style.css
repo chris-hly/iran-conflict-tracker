@@ -376,3 +376,61 @@ a:hover {
 .leader-item.alive .leader-status {
     color: #4ecdc4;
 }
+
+/* Analysis Section */
+.analysis-section {
+    background: linear-gradient(135deg, rgba(78, 205, 196, 0.1) 0%, rgba(255, 107, 107, 0.1) 100%);
+    border: 1px solid rgba(78, 205, 196, 0.3);
+}
+
+.analysis-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.analysis-preview {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.analysis-preview:hover {
+    background: rgba(0, 0, 0, 0.3);
+    transform: translateX(5px);
+}
+
+.analysis-icon {
+    font-size: 2rem;
+}
+
+.analysis-text {
+    flex: 1;
+}
+
+.analysis-text strong {
+    display: block;
+    font-size: 1.1rem;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.analysis-text p {
+    font-size: 0.85rem;
+    color: #888;
+    margin: 0;
+}
+
+.analysis-preview .arrow {
+    font-size: 1.5rem;
+    color: #4ecdc4;
+    transition: transform 0.3s ease;
+}
+
+.analysis-preview:hover .arrow {
+    transform: translateX(5px);
+}

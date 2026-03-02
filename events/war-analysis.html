@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>战争走势分析与影响预测 - 美伊冲突时间线</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        .event-detail { max-width: 900px; margin: 0 auto; padding: 20px; }
+        .event-header { border-bottom: 2px solid #ff6b6b; padding-bottom: 20px; margin-bottom: 30px; }
+        .event-time { color: #ff6b6b; font-size: 1.2rem; margin-bottom: 10px; }
+        .event-title { font-size: 2rem; margin-bottom: 15px; }
+        .event-content { line-height: 1.8; color: #ccc; }
+        .event-content p { margin-bottom: 15px; }
+        .event-content h3 { color: #4ecdc4; margin: 25px 0 15px 0; }
+        .event-content h4 { color: #ffd93d; margin: 20px 0 10px 0; }
+        .back-link { display: inline-block; margin-bottom: 20px; color: #4ecdc4; }
+        .source-box { background: rgba(0,0,0,0.3); padding: 15px; border-radius: 8px; margin-top: 30px; }
+        .highlight { background: rgba(255,107,107,0.2); padding: 2px 6px; border-radius: 4px; }
+        .analysis-box { background: rgba(78,205,196,0.1); border-left: 3px solid #4ecdc4; padding: 20px; margin: 20px 0; }
+        .warning-box { background: rgba(255,217,61,0.1); border-left: 3px solid #ffd93d; padding: 20px; margin: 20px 0; }
+        .danger-box { background: rgba(255,107,107,0.1); border-left: 3px solid #ff6b6b; padding: 20px; margin: 20px 0; }
+        .scenario-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin: 20px 0; }
+        .scenario-card { background: rgba(0,0,0,0.3); border-radius: 8px; padding: 20px; border-top: 3px solid; }
+        .scenario-card.optimistic { border-color: #4ecdc4; }
+        .scenario-card.moderate { border-color: #ffd93d; }
+        .scenario-card.pessimistic { border-color: #ff6b6b; }
+        .scenario-card h4 { margin-top: 0; }
+        .scenario-card ul { padding-left: 20px; margin: 10px 0; }
+        .scenario-card li { margin: 8px 0; color: #bbb; }
+        .probability { font-size: 0.9rem; color: #888; margin-bottom: 10px; }
+        .impact-table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        .impact-table th, .impact-table td { padding: 12px; text-align: left; border-bottom: 1px solid rgba(255,255,255,0.1); }
+        .impact-table th { color: #888; font-weight: 500; background: rgba(0,0,0,0.2); }
+        .impact-high { color: #ff6b6b; }
+        .impact-medium { color: #ffd93d; }
+        .impact-low { color: #4ecdc4; }
+        .timeline-prediction { position: relative; padding-left: 30px; margin: 20px 0; }
+        .timeline-prediction::before { content: ''; position: absolute; left: 10px; top: 0; bottom: 0; width: 2px; background: linear-gradient(to bottom, #ff6b6b, #ffd93d, #4ecdc4); }
+        .timeline-item { position: relative; margin-bottom: 20px; padding: 15px; background: rgba(0,0,0,0.2); border-radius: 8px; }
+        .timeline-item::before { content: ''; position: absolute; left: -24px; top: 20px; width: 10px; height: 10px; border-radius: 50%; background: #4ecdc4; }
+        .timeline-item.urgent::before { background: #ff6b6b; }
+        .timeline-item.near::before { background: #ffd93d; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="event-detail">
+            <a href="../index.html" class="back-link">← 返回主页</a>
+            
+            <div class="event-header">
+                <div class="event-time">📅 分析时间：2026年3月2日</div>
+                <h1 class="event-title">🔮 战争走势分析与影响预测</h1>
+            </div>
+            
+            <div class="event-content">
+                <div class="warning-box">
+                    <h3>⚠️ 免责声明</h3>
+                    <p>以下分析基于公开信息和逻辑推演，仅供参考。战争局势瞬息万变，实际情况可能与预测存在重大差异。</p>
+                </div>
+                
+                <h3>📊 当前局势评估</h3>
+                <p>截至3月2日，冲突已进入第三天，呈现以下特征：</p>
+                <ul>
+                    <li><strong>军事层面：</strong>美以掌握制空权，伊朗依靠导弹和代理人进行反击</li>
+                    <li><strong>政治层面：</strong>伊朗最高领袖死亡，领导层出现真空</li>
+                    <li><strong>地区层面：</strong>真主党参战，战线扩大到黎巴嫩</li>
+                    <li><strong>经济层面：</strong>霍尔木兹海峡封锁，能源危机风险上升</li>
+                </ul>
+                
+                <h3>🔮 三种可能的发展情景</h3>
+                
+                <div class="scenario-grid">
+                    <div class="scenario-card pessimistic">
+                        <h4>🔴 悲观情景：全面战争</h4>
+                        <p class="probability">概率：25-35%</p>
+                        <ul>
+                            <li>伊朗政权崩溃，陷入内战</li>
+                            <li>更多代理人参战（也门胡塞、伊拉克民兵）</li>
+                            <li>以色列地面进攻黎巴嫩</li>
+                            <li>美国增兵中东，陷入长期战争</li>
+                            <li>霍尔木兹海峡长期封锁</li>
+                            <li>全球能源危机引发经济衰退</li>
+                            <li>油价可能突破200美元/桶</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="scenario-card moderate">
+                        <h4>🟡 中性情景：有限战争</h4>
+                        <p class="probability">概率：40-50%</p>
+                        <ul>
+                            <li>战争持续2-6周后停火</li>
+                            <li>伊朗新政府上台，寻求谈判</li>
+                            <li>美国达成"推翻政权"目标后收手</li>
+                            <li>真主党有限参战后停止</li>
+                            <li>霍尔木兹海峡短暂封锁后恢复</li>
+                            <li>油价上涨至120-150美元后回落</li>
+                            <li>地区局势长期紧张但可控</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="scenario-card optimistic">
+                        <h4>🟢 乐观情景：快速结束</h4>
+                        <p class="probability">概率：15-25%</p>
+                        <ul>
+                            <li>伊朗新领导层迅速接管</li>
+                            <li>双方在一周内达成停火</li>
+                            <li>美国宣布"任务完成"撤军</li>
+                            <li>霍尔木兹海峡快速解封</li>
+                            <li>油价短暂上涨后回落</li>
+                            <li>地区局势相对稳定</li>
+                            <li>真主党等代理人保持克制</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <h3>🌍 全球影响预测</h3>
+                
+                <table class="impact-table">
+                    <thead>
+                        <tr>
+                            <th>领域</th>
+                            <th>短期影响（1-2周）</th>
+                            <th>中期影响（1-3月）</th>
+                            <th>风险等级</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>能源</strong></td>
+                            <td>油价暴涨30-50%，加油站排队</td>
+                            <td>若海峡持续封锁，全球能源短缺</td>
+                            <td class="impact-high">极高</td>
+                        </tr>
+                        <tr>
+                            <td><strong>经济</strong></td>
+                            <td>股市震荡，避险资产上涨</td>
+                            <td>通胀压力，供应链中断</td>
+                            <td class="impact-high">高</td>
+                        </tr>
+                        <tr>
+                            <td><strong>中国</strong></td>
+                            <td>能源进口成本上升</td>
+                            <td>一带一路项目受影响，可能参与调停</td>
+                            <td class="impact-medium">中高</td>
+                        </tr>
+                        <tr>
+                            <td><strong>俄罗斯</strong></td>
+                            <td>油价上涨利好俄经济</td>
+                            <td>可能趁西方分心在乌克兰取得进展</td>
+                            <td class="impact-medium">中</td>
+                        </tr>
+                        <tr>
+                            <td><strong>欧洲</strong></td>
+                            <td>能源价格冲击</td>
+                            <td>经济衰退风险，难民潮</td>
+                            <td class="impact-high">高</td>
+                        </tr>
+                        <tr>
+                            <td><strong>印度</strong></td>
+                            <td>能源进口成本飙升</td>
+                            <td>经济增长放缓，通胀压力</td>
+                            <td class="impact-high">高</td>
+                        </tr>
+                        <tr>
+                            <td><strong>东南亚</strong></td>
+                            <td>油价传导至物价</td>
+                            <td>出口受影响，经济增长放缓</td>
+                            <td class="impact-medium">中</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <h3>📅 关键时间节点预测</h3>
+                
+                <div class="timeline-prediction">
+                    <div class="timeline-item urgent">
+                        <h4>3月2-5日：关键博弈期</h4>
+                        <p>伊朗领导层交接，美国持续施压。如果伊朗能够快速确立新领导层并组织有效抵抗，战争可能延长；如果伊朗陷入混乱，美国可能加速推进。</p>
+                    </div>
+                    <div class="timeline-item urgent">
+                        <h4>3月5-10日：代理人抉择</h4>
+                        <p>也门胡塞、伊拉克民兵、叙利亚武装是否大规模参战。如果多线作战，美国将面临更大压力。</p>
+                    </div>
+                    <div class="timeline-item near">
+                        <h4>3月中旬：经济冲击显现</h4>
+                        <p>全球油价、物流、供应链影响全面显现。各国可能出台应对措施。如果霍尔木兹海峡仍被封锁，经济压力剧增。</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h4>3月底-4月：政治解决窗口</h4>
+                        <p>国际社会调停力度加大。如果双方都有意愿，可能出现停火谈判窗口。中国、俄罗斯可能提出和平方案。</p>
+                    </div>
+                </div>
+                
+                <h3>🎯 关键观察指标</h3>
+                
+                <div class="analysis-box">
+                    <h4>判断战争走向的关键指标：</h4>
+                    <ul>
+                        <li><strong>伊朗新领导层：</strong>谁将接替哈梅内伊？强硬派还是温和派？</li>
+                        <li><strong>真主党行动强度：</strong>是象征性攻击还是全面参战？</li>
+                        <li><strong>霍尔木兹海峡：</strong>实际封锁程度如何？能持续多久？</li>
+                        <li><strong>美军伤亡：</strong>如果伤亡大幅增加，美国国内压力将上升</li>
+                        <li><strong>油价走势：</strong>超过150美元将严重冲击全球经济</li>
+                        <li><strong>中国态度：</strong>是否会更积极地参与调停？</li>
+                        <li><strong>俄罗斯行动：</strong>是否会趁机在乌克兰取得进展？</li>
+                    </ul>
+                </div>
+                
+                <h3>🇨🇳 对中国的影响与机遇</h3>
+                
+                <div class="warning-box">
+                    <h4>挑战：</h4>
+                    <ul>
+                        <li>能源进口成本大幅上升（中国是伊朗石油大买家）</li>
+                        <li>一带一路中东项目受阻</li>
+                        <li>出口企业面临供应链中断</li>
+                        <li>通胀压力传导至国内</li>
+                    </ul>
+                    
+                    <h4>机遇：</h4>
+                    <ul>
+                        <li>可能扮演调停者角色，提升国际影响力</li>
+                        <li>推动能源进口多元化加速</li>
+                        <li>新能源、电动汽车产业获得更多关注</li>
+                        <li>人民币国际化可能获得新动力</li>
+                    </ul>
+                </div>
+                
+                <h3>💭 综合判断</h3>
+                
+                <div class="danger-box">
+                    <h4>最可能的走向（截至3月2日判断）</h4>
+                    <p>基于当前信息，我认为<span class="highlight">"有限战争"情景可能性最高</span>（40-50%）：</p>
+                    <ul>
+                        <li>战争将持续2-6周</li>
+                        <li>美国将通过空袭推翻伊朗现政权</li>
+                        <li>伊朗新政府将在压力下寻求停火</li>
+                        <li>霍尔木兹海峡将短暂封锁后恢复</li>
+                        <li>油价将在120-150美元区间震荡</li>
+                        <li>地区局势将长期紧张但不会全面失控</li>
+                    </ul>
+                    <p><strong>最大风险：</strong>伊朗内部崩溃导致长期内战，或真主党全面参战引发地区大战。</p>
+                </div>
+                
+                <p style="color: #888; font-style: italic; margin-top: 30px;">
+                    以上分析基于公开信息，仅供参考。战争是复杂的，充满了不确定性。我们将持续关注局势发展。
+                </p>
+            </div>
+            
+            <div class="source-box">
+                <h4>📌 分析依据</h4>
+                <p>基于公开新闻报道、历史战争规律、地缘政治分析框架进行推演。不构成投资建议或政策建议。</p>
+                <p style="color: #888; margin-top: 10px;">分析时间：2026年3月2日 | 将根据局势变化更新</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
