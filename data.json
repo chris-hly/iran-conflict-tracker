@@ -335,10 +335,31 @@
       "source": "以军空袭"
     }
   ],
+  "israelActions": [
+    {
+      "text": "3月3日 - 以色列国防军已摧毁约600个伊朗目标",
+      "detail": "包括150枚弹道导弹发射器、200套防空系统",
+      "link": "events/day4-escalation.html"
+    },
+    {
+      "text": "3月3日 - 打击伊朗首都德黑兰市中心数十个政府机构",
+      "detail": "袭击情报与国家安全部分支机构、革命卫队圣城旅",
+      "link": "events/day4-escalation.html"
+    },
+    {
+      "text": "3月2日 - 空袭黎巴嫩致31死149伤",
+      "link": "events/day3-escalation.html"
+    },
+    {
+      "text": "2月28日 - 对德黑兰发动"狮吼行动"",
+      "link": "events/us-israel-strike.html"
+    }
+  ],
   "operationNames": [
     {
       "country": "以色列",
-      "name": "狮吼行动"
+      "name": "狮吼行动",
+      "detail": "已摧毁600个伊朗目标"
     },
     {
       "country": "美国",
