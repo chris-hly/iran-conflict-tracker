@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../style.css">
     <style>
         .event-detail { max-width: 800px; margin: 0 auto; padding: 20px; }
-        .event-header { border-bottom: 2px solid #ff6b6b; padding-bottom: 20px; margin-bottom: 30px; }
+        .event-header { border-bottom: 2px solid #ff6b6b; padding-bottom: 25px; margin-bottom: 30px; }
         .event-time { color: #ff6b6b; font-size: 1.2rem; margin-bottom: 10px; }
         .event-title { font-size: 2rem; margin-bottom: 15px; }
         .event-content { line-height: 1.8; color: #ccc; }
@@ -24,7 +24,7 @@
         .alert-box { background: rgba(255,107,107,0.1); border-left: 3px solid #ff6b6b; padding: 20px; margin: 20px 0; }
         .analysis-box { background: rgba(78,205,196,0.1); border-left: 3px solid #4ecdc4; padding: 20px; margin: 20px 0; }
         blockquote { border-left: 3px solid #4ecdc4; padding-left: 15px; margin: 15px 0; color: #aaa; font-style: italic; }
-        .impact-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 15px; margin: 20px 0; }
+        .impact-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr); gap: 15px; margin: 20px 0; }
         .impact-card { background: rgba(0,0,0,0.3); padding: 20px; border-radius: 8px; text-align: center; }
         .impact-card .value { font-size: 2rem; font-weight: 700; margin-bottom: 5px; }
         .impact-card .label { color: #888; font-size: 0.9rem; }
@@ -45,12 +45,11 @@
             <div class="event-content">
                 <div class="alert-box">
                     <h3>🚨 重大升级</h3>
-                    <p>冲突进入第四天，局势急剧恶化：</p>
                     <ul>
-                        <li>美军伤亡升至约<span class="highlight">200人</span>（伊方声称）</li>
+                        <li>美军伤亡升至约<span class="highlight">200人</span>（伊方称美军伤亡约200人）</li>
                         <li>科威特误击落<span class="highlight">3架美军F-15E战机</span>（6人弹射获救）</li>
                         <li>霍尔木兹海峡<span class="highlight">全面封锁</span>，油价暴涨13%</li>
-                        <li>伊朗向<span class="highlight">塞浦路斯英国空军基地</span>发射导弹/无人机</li>
+                        <li>伊朗向<span class="highlight">塞浦路斯英国空军基地</span>发射导弹/无人机，</li>
                     </ul>
                 </div>
                 
@@ -68,12 +67,7 @@
                         <tr>
                             <td>3月3日</td>
                             <td>伊朗向塞浦路斯英国空军基地发射导弹/无人机</td>
-                            <td class="status-critical">战火扩展至欧洲方向</td>
-                        </tr>
-                        <tr>
-                            <td>3月3日</td>
-                            <td>伊朗革命卫队称美军伤亡约200人</td>
-                            <td class="status-critical">美军伤亡大幅上升</td>
+                            <td class="status-critical">战火扩展至能源方向</td>
                         </tr>
                         <tr>
                             <td>3月3日</td>
@@ -85,6 +79,16 @@
                             <td>全球多家石油公司暂停通过霍尔木兹海峡</td>
                             <td class="status-critical">能源运输中断</td>
                         </tr>
+                        <tr>
+                            <td>3月3日</td>
+                            <td>布伦特原油开盘13%至$82/桶</td>
+                            <td class="status-critical">暴涨13%</td>
+                        </tr>
+                        <tr>
+                            <td>3月2日 约22:00</td>
+                            <td>沙特阿美Ras Tanura炼油厂遭伊朗无人机攻击</td>
+                            <td class="status-critical">全球最大炼油厂之一关闭</td>
+                        </tr>
                     </tbody>
                 </table>
                 
@@ -94,26 +98,20 @@
                     <div class="impact-card impact-up">
                         <div class="value">↑ 13%</div>
                         <div class="label">布伦特原油</div>
-                        <div class="label">$82/桶</div>
                     </div>
                     <div class="impact-card impact-up">
-                        <div class="value">↑ 7.7%</div>
+                        <div class="value">$82</div>
+                        <div class="label">美元/桶</div>
+                    </div>
+                    <div class="impact-card impact-up">
+                        <div class="value">7.7%</div>
                         <div class="label">美国原油</div>
-                        <div class="label">$72.18/桶</div>
                     </div>
                     <div class="impact-card impact-up">
-                        <div class="value">🔴</div>
-                        <div class="label">海峡通行</div>
-                        <div class="label">全面暂停</div>
+                        <div class="value">20%</div>
+                        <div class="label">石油运输受阻</div>
                     </div>
                 </div>
-                
-                <p><strong>霍尔木兹海峡封锁详情：</strong></p>
-                <ul>
-                    <li>伊朗伊斯兰革命卫队宣布：<span class="highlight">任何船只不得通过</span></li>
-                    <li>全球多家大型石油公司及贸易巨头已暂停石油与燃料船只通过</li>
-                    <li>全球约<span class="highlight">20%的石油运输受阻</span></li>
-                </ul>
                 
                 <h3>📊 伤亡统计</h3>
                 
@@ -136,7 +134,7 @@
                         <tr>
                             <td>🇺🇸 美军</td>
                             <td>3</td>
-                            <td class="status-critical">约200人（伊方声称）</td>
+                            <td class="status-critical">约200人</td>
                             <td>伊朗反击</td>
                         </tr>
                         <tr>
@@ -149,6 +147,7 @@
                 </table>
                 
                 <h3>🎯 军事行动代号</h3>
+                
                 <table class="event-table">
                     <thead>
                         <tr>
@@ -189,73 +188,27 @@
                 <div class="analysis-box">
                     <h4>🇮🇷 伊朗</h4>
                     <p><strong>拉里贾尼：</strong>"我们不会与美国谈判"</p>
-                    <p>伊朗誓言<span class="highlight">"无红线、毁灭性报复"</span></p>
+                    <p>伊朗誓言"无红线、毁灭性报复"</p>
                 </div>
                 
                 <div class="analysis-box">
                     <h4>🇺🇳 联合国 - IAEA</h4>
-                    <p>目前没有迹象表明伊朗核设施受损，未检测到辐射水平升高。</p>
-                    <p><strong>警告：</strong>军事行动可能造成严重核安全后果。</p>
+                    <ul>
+                        <li>目前没有迹象表明伊朗核设施受损</li>
+                        <li>未检测到辐射水平升高</li>
+                        <li><strong>警告：</strong>军事行动可能造成严重核安全后果</li>
+                    </ul>
                 </div>
                 
-                <h3>🔴 风险评估</h3>
-                
-                <table class="event-table">
-                    <thead>
-                        <tr>
-                            <th>风险类型</th>
-                            <th>等级</th>
-                            <th>说明</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>全球能源危机</td>
-                            <td class="status-critical">极高</td>
-                            <td>霍尔木兹海峡全面封锁+沙特炼油厂关闭</td>
-                        </tr>
-                        <tr>
-                            <td>地区战争扩大</td>
-                            <td class="status-critical">极高</td>
-                            <td>沙特、塞浦路斯已受波及</td>
-                        </tr>
-                        <tr>
-                            <td>美军升级风险</td>
-                            <td class="status-critical">高</td>
-                            <td>伤亡激增可能引发美国大规模报复</td>
-                        </tr>
-                        <tr>
-                            <td>真主党参战</td>
-                            <td class="status-critical">高</td>
-                            <td>黎巴嫩战线持续升温</td>
-                        </tr>
-                        <tr>
-                            <td>伊朗领导层真空</td>
-                            <td class="status-warning">中高</td>
-                            <td>哈梅内伊已死，继任者不明</td>
-                        </tr>
-                        <tr>
-                            <td>核安全风险</td>
-                            <td class="status-warning">中高</td>
-                            <td>IAEA警告，目前未受损</td>
-                        </tr>
-                    </tbody>
-                </table>
-                
-                <h3>📅 接下来关注</h3>
-                <ul>
-                    <li>美国国防部新闻发布会内容</li>
-                    <li>伊朗新领导层谁将上位</li>
-                    <li>霍尔木兹海峡封锁对油价的持续影响</li>
-                    <li>沙特炼油厂恢复情况</li>
-                    <li>真主党是否会大规模参战</li>
-                    <li>俄罗斯和其他大国的进一步表态</li>
-                </ul>
+                <div class="analysis-box">
+                    <h4>🇱🇧 真主党</h4>
+                    <p>3月2日向以色列发射6枚火箭弹，回应哈梅内伊被杀和以色列的反复侵略。</p>
+                </div>
             </div>
             
             <div class="source-box">
                 <h4>📌 信息来源</h4>
-                <p>央视新闻、新华社、南方日报、路透社、伊朗红新月会、伊朗伊斯兰革命卫队、IAEA</p>
+                <p>央视新闻、新华社、南方日报、路透社、伊朗红新月会、伊朗伊斯兰革命卫队</p>
             </div>
         </div>
     </div>
