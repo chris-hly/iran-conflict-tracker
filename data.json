@@ -1,11 +1,31 @@
 {
-  "updateTime": "2026年03月03日 10:19 (GMT+8)",
+  "updateTime": "2026年03月03日 10:30 (GMT+8)",
   "status": {
     "alertLevel": "严重",
-    "straitStatus": "已封锁",
-    "oilPrice": "↑ 暴涨"
+    "straitStatus": "全面封锁",
+    "oilPrice": "↑ 暴涨13%"
   },
   "timeline": [
+    {
+      "date": "2026年3月3日",
+      "event": "伊朗革命卫队称美军伤亡约200人",
+      "link": "events/day4-escalation.html"
+    },
+    {
+      "date": "2026年3月3日",
+      "event": "伊朗向塞浦路斯英国空军基地发射导弹/无人机",
+      "link": "events/day4-escalation.html"
+    },
+    {
+      "date": "2026年3月3日",
+      "event": "全球多家石油公司暂停通过霍尔木兹海峡，布伦特原油暴涨13%至$82/桶",
+      "link": "events/day4-escalation.html"
+    },
+    {
+      "date": "2026年3月3日",
+      "event": "中国外交部敦促各方立即停止军事行动",
+      "link": "events/day4-escalation.html"
+    },
     {
       "date": "2026年3月2日 约22:00",
       "event": "【重大升级】沙特阿美Ras Tanura炼油厂遭伊朗无人机攻击，暂时关闭",
@@ -119,6 +139,10 @@
   ],
   "usActions": [
     {
+      "text": "3月3日 - 科威特误击落3架美军F-15E战机（6人获救）",
+      "link": "events/day4-escalation.html"
+    },
+    {
       "text": "3月2日 - 科威特多架美军战机坠毁，飞行员幸存",
       "link": "events/energy-escalation.html"
     },
@@ -152,6 +176,10 @@
     }
   ],
   "iranActions": [
+    {
+      "text": "【最新】3月3日 - 向塞浦路斯英国空军基地发射导弹/无人机",
+      "link": "events/day4-escalation.html"
+    },
     {
       "text": "【重大】3月2日 - 伊朗无人机攻击沙特Ras Tanura炼油厂",
       "link": "events/energy-escalation.html"
@@ -225,8 +253,8 @@
     {
       "name": "真主党（黎巴嫩）",
       "status": "已参战",
-      "actions": "3月2日向以色列发射导弹",
-      "link": "events/day3-escalation.html"
+      "actions": "3月2日向以色列发射6枚火箭弹，持续战斗中",
+      "link": "events/day4-escalation.html"
     },
     {
       "name": "沙特阿拉伯",
@@ -238,7 +266,8 @@
   "impacts": [
     {
       "label": "原油",
-      "value": "↑ 暴涨",
+      "value": "↑ 13%",
+      "detail": "$82/桶",
       "trend": "up"
     },
     {
@@ -257,26 +286,57 @@
       "trend": "up"
     }
   ],
+  "casualties": [
+    {
+      "side": "伊朗",
+      "dead": 555,
+      "injured": "众多",
+      "source": "伊朗红新月会",
+      "cities": 131
+    },
+    {
+      "side": "美军",
+      "dead": 3,
+      "injured": "约200人（伊方声称）",
+      "source": "伊朗反击"
+    },
+    {
+      "side": "黎巴嫩",
+      "dead": 31,
+      "injured": 149,
+      "source": "以军空袭"
+    }
+  ],
+  "operationNames": [
+    {
+      "country": "以色列",
+      "name": "狮吼行动"
+    },
+    {
+      "country": "美国",
+      "name": "史诗怒火"
+    }
+  ],
   "statements": [
     {
       "country": "🇨🇳 中国",
-      "content": "外交部发言人毛宁：正在密切关注伊朗局势，主张通过政治外交途径解决问题，反对使用武力，支持伊朗维护国家稳定和正当权益。",
-      "link": "https://www.fmprc.gov.cn"
+      "content": "3月3日：外交部发言人毛宁表示，霍尔木兹海峡是重要的国际货物和能源贸易通道，维护该地区安全稳定符合国际社会共同利益。中方敦促各方立即停止军事行动。",
+      "link": "events/day4-escalation.html"
     },
     {
       "country": "🇺🇸 美国 - 特朗普",
-      "content": "3月2日：行动可能持续「四周或更短」，将继续直到达成所有目标。称大多数哈梅内伊继任者已在空袭中丧生。",
-      "link": "events/day3-escalation.html"
+      "content": "3月2日：行动可能持续「四周或更短」，将继续直到达成所有目标。国防部将于3月2日8时就「史诗怒火」行动举行新闻发布会。",
+      "link": "events/day4-escalation.html"
     },
     {
       "country": "🇮🇷 伊朗 - 拉里贾尼",
-      "content": "3月1日：我们不会与美国谈判。伊朗民族正在自卫，武装部队没有发起侵略。",
+      "content": "3月1日：我们不会与美国谈判。伊朗誓言「无红线、毁灭性报复」。",
       "link": "events/day3-escalation.html"
     },
     {
       "country": "🇱🇧 真主党",
-      "content": "3月2日：向以色列发射导弹，回应哈梅内伊被杀和以色列的反复侵略。",
-      "link": "events/day3-escalation.html"
+      "content": "3月2日：向以色列发射6枚火箭弹，回应哈梅内伊被杀和以色列的反复侵略。",
+      "link": "events/day4-escalation.html"
     },
     {
       "country": "🇺🇳 联合国 - IAEA",
