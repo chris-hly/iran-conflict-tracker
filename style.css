@@ -4,12 +4,38 @@
     box-sizing: border-box;
 }
 
+/* 主题色支持 - 跟随系统 */
+:root {
+    --bg-primary: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    --bg-secondary: rgba(255,255,255,0.05);
+    --text-primary: #e0e0e0;
+    --text-secondary: #888;
+    --border-color: rgba(255,255,255,0.1);
+    --accent-red: #ff6b6b;
+    --accent-cyan: #4ecdc4;
+    --card-bg: rgba(255,255,255,0.08);
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --bg-primary: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        --bg-secondary: rgba(0,0,0,0.03);
+        --text-primary: #333333;
+        --text-secondary: #666666;
+        --border-color: rgba(0,0,0,0.1);
+        --accent-red: #e74c3c;
+        --accent-cyan: #3498db;
+        --card-bg: rgba(255,255,255,0.8);
+    }
+}
+
 body {
     font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
-    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-    color: #e0e0e0;
+    background: var(--bg-primary);
+    color: var(--text-primary);
     min-height: 100vh;
     line-height: 1.6;
+    transition: background 0.3s, color 0.3s;
 }
 
 .container {
@@ -21,7 +47,7 @@ body {
 header {
     text-align: center;
     padding: 30px 0;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
+    border-bottom: 1px solid var(--border-color);
     margin-bottom: 30px;
 }
 
@@ -37,7 +63,7 @@ header h1 {
 }
 
 .update-time {
-    color: #888;
+    color: var(--text-secondary);
     font-size: 0.9rem;
 }
 
