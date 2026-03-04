@@ -1,11 +1,26 @@
 {
-  "updateTime": "2026年03月03日 16:30 (GMT+8)",
+  "updateTime": "2026年03月04日 10:25 (GMT+8)",
   "status": {
     "alertLevel": "严重",
     "straitStatus": "全面封锁",
     "oilPrice": "↑ 暴涨13%"
   },
   "timeline": [
+    {
+      "date": "2026年3月4日",
+      "event": "战争进入第4天：以色列大规模空袭德黑兰、贝鲁特"军事目标"",
+      "link": "https://www.bbc.com/zhongwen/articles/cly2m274v1no/simp"
+    },
+    {
+      "date": "2026年3月4日",
+      "event": "特朗普在海湖庄园作战室幕后监控美以对伊朗空袭",
+      "link": "https://www.bbc.com/zhongwen/resources/idt-24f9546d-9bc0-4c0c-a49f-776799a9d5c4"
+    },
+    {
+      "date": "2026年3月4日",
+      "event": "伊朗政权进入"生存模式"，未来几天将显示是否能撑下去",
+      "link": "https://www.bbc.com/zhongwen/articles/c75ev5dvqg5o/simp"
+    },
     {
       "date": "2026年3月3日",
       "event": "伊朗海军无人机部队对科威特阿里夫詹美军基地发起第13轮攻击",
@@ -371,6 +386,10 @@
     }
   ],
   "statements": [
+    {
+      "country": "🇺🇸 美国",
+      "content": "特朗普对伊朗战争讯息混乱，最终意图仍不明朗"
+    },
     {
       "country": "🇨🇳 中国",
       "content": "外交部发言人毛宁：霍尔木兹海峡是重要的国际货物和能源贸易通道，维护该地区安全稳定符合国际社会共同利益。中方敦促各方立即停止军事行动。"
