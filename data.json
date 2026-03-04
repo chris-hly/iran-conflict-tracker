@@ -1,11 +1,31 @@
 {
-  "updateTime": "2026年03月04日 10:25 (GMT+8)",
+  "updateTime": "2026年03月04日 19:57 (GMT+8)",
   "status": {
     "alertLevel": "严重",
     "straitStatus": "全面封锁",
     "oilPrice": "↑ 暴涨13%"
   },
   "timeline": [
+    {
+      "date": "2026年3月4日",
+      "event": "美以连续四日空袭伊朗，特朗普称伊朗防空系统已不复存在",
+      "link": "https://www.bbc.com/zhongwen/articles/c9v00pz43x9o/simp"
+    },
+    {
+      "date": "2026年3月4日",
+      "event": "伊朗锁喉霍尔木兹海峡的可能方式及后续影响",
+      "link": "https://www.bbc.com/zhongwen/articles/c70nn4j2369o/simp"
+    },
+    {
+      "date": "2026年3月4日",
+      "event": "德黑兰恐陷食物短缺，居民担心战争不知何时结束",
+      "link": "https://www.bbc.com/zhongwen/articles/c4g55p24zreo/simp"
+    },
+    {
+      "date": "2026年3月4日",
+      "event": "伊朗米纳布市为学校死亡学生和教职员工举行葬礼",
+      "link": "https://www.bbc.com/zhongwen/articles/c5ykkgx603no/simp"
+    },
     {
       "date": "2026年3月4日",
       "event": "战争进入第4天：以色列大规模空袭德黑兰、贝鲁特",
@@ -15,11 +35,6 @@
       "date": "2026年3月4日",
       "event": "特朗普在海湖庄园作战室幕后监控美以对伊朗空袭",
       "link": "https://www.bbc.com/zhongwen/resources/idt-24f9546d-9bc0-4c0c-a49f-776799a9d5c4"
-    },
-    {
-      "date": "2026年3月4日",
-      "event": "伊朗政权进入生存模式，未来几天将显示是否能撑下去",
-      "link": "https://www.bbc.com/zhongwen/articles/c75ev5dvqg5o/simp"
     },
     {
       "date": "2026年3月3日",
