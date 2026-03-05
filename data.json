@@ -1,11 +1,46 @@
 {
-  "updateTime": "2026年03月04日 19:57 (GMT+8)",
+  "updateTime": "2026年03月05日 10:05 (GMT+8)",
   "status": {
     "alertLevel": "严重",
     "straitStatus": "全面封锁",
     "oilPrice": "↑ 暴涨13%"
   },
   "timeline": [
+    {
+      "date": "2026年3月5日",
+      "event": "冲突进入第6天：伊朗向卡塔尔发射导弹击中美军乌代德空军基地",
+      "link": "events/day6-conflict.html"
+    },
+    {
+      "date": "2026年3月5日",
+      "event": "伊朗首次使用"哈迪德110"高速无人机，与真主党首次协同攻击以色列中部",
+      "link": "events/day6-conflict.html"
+    },
+    {
+      "date": "2026年3月5日",
+      "event": "伊朗导弹袭击以色列国防部大楼",
+      "link": "events/day6-conflict.html"
+    },
+    {
+      "date": "2026年3月5日",
+      "event": "特朗普：打击行动可能持续四周",
+      "link": "events/day6-conflict.html"
+    },
+    {
+      "date": "2026年3月5日",
+      "event": "美防长：伊朗导弹打击下降86%，无人机下降73%，美国"正在赢"",
+      "link": "events/day6-conflict.html"
+    },
+    {
+      "date": "2026年3月5日",
+      "event": "伊朗誓言"未来几天回击更猛更广"",
+      "link": "events/day6-conflict.html"
+    },
+    {
+      "date": "2026年3月5日",
+      "event": "伊朗据报愿与美国谈判停战",
+      "link": "events/day6-conflict.html"
+    },
     {
       "date": "2026年3月4日",
       "event": "美以连续四日空袭伊朗，特朗普称伊朗防空系统已不复存在",
@@ -184,6 +219,14 @@
   ],
   "usActions": [
     {
+      "text": "3月5日 - 美防长：伊朗导弹打击下降86%，无人机下降73%，美国"正在赢"",
+      "link": "events/day6-conflict.html"
+    },
+    {
+      "text": "3月5日 - 特朗普：打击行动可能持续四周",
+      "link": "events/day6-conflict.html"
+    },
+    {
       "text": "3月3日 - 美军中央司令部：6名美军士兵阵亡，5人重伤",
       "link": "events/day4-escalation.html"
     },
@@ -221,6 +264,30 @@
     }
   ],
   "iranActions": [
+    {
+      "text": "3月5日 - 向卡塔尔发射2枚弹道导弹，1枚击中美军乌代德空军基地",
+      "link": "events/day6-conflict.html"
+    },
+    {
+      "text": "3月5日 - 首次使用"哈迪德110"高速无人机",
+      "link": "events/day6-conflict.html"
+    },
+    {
+      "text": "3月5日 - 与黎巴嫩真主党首次协同对以色列中部发起攻击",
+      "link": "events/day6-conflict.html"
+    },
+    {
+      "text": "3月5日 - 导弹袭击以色列国防部大楼",
+      "link": "events/day6-conflict.html"
+    },
+    {
+      "text": "3月5日 - 誓言"未来几天回击更猛更广"",
+      "link": "events/day6-conflict.html"
+    },
+    {
+      "text": "3月5日 - 据报愿与美国谈判停战",
+      "link": "events/day6-conflict.html"
+    },
     {
       "text": "3月3日 - 伊朗海军无人机对科威特阿里夫詹美军基地发起第13轮攻击",
       "link": "events/day4-escalation.html"
@@ -304,16 +371,28 @@
   ],
   "regionalActors": [
     {
+      "name": "卡塔尔",
+      "status": "受攻击",
+      "actions": "伊朗向卡塔尔发射2枚弹道导弹，1枚击中美军乌代德空军基地",
+      "link": "events/day6-conflict.html"
+    },
+    {
       "name": "真主党（黎巴嫩）",
       "status": "已参战",
-      "actions": "3月2日向以色列发射6枚火箭弹",
-      "link": "events/day4-escalation.html"
+      "actions": "3月5日与伊朗首次协同对以色列中部发起攻击",
+      "link": "events/day6-conflict.html"
     },
     {
       "name": "沙特阿拉伯",
       "status": "受攻击",
       "actions": "Ras Tanura炼油厂遭袭，美国大使馆遇袭",
       "link": "events/energy-escalation.html"
+    },
+    {
+      "name": "科威特",
+      "status": "受攻击",
+      "actions": "多处美军基地遇袭，战机坠毁",
+      "link": "events/day4-escalation.html"
     },
     {
       "name": "胡塞武装（也门）",
