@@ -1,11 +1,31 @@
 {
-  "updateTime": "2026年03月05日 10:05 (GMT+8)",
+  "updateTime": "2026年03月05日 15:40 (GMT+8)",
   "status": {
     "alertLevel": "严重",
     "straitStatus": "全面封锁",
     "oilPrice": "↑ 暴涨13%"
   },
   "timeline": [
+    {
+      "date": "2026年3月5日",
+      "event": "美防长：行动「才刚刚开始」，将动用无限量精准炸弹空袭伊朗",
+      "link": "https://www.voachinese.com/a/hegseth-pentagon-press-briefing-20260304/8121245.html"
+    },
+    {
+      "date": "2026年3月5日",
+      "event": "伊朗特工曾与美国秘密接触，试图谈判停战",
+      "link": "https://cn.nytimes.com/world/20260305/trump-iran-intelligence-leaders/"
+    },
+    {
+      "date": "2026年3月5日",
+      "event": "伊朗：全力以赴打赢「存亡之战」，未来几天回击更猛更广",
+      "link": "https://www.news.cn/20260305/408b2a3204f042d89afaa0c020fb80cf/c.html"
+    },
+    {
+      "date": "2026年3月5日",
+      "event": "联合国秘书长斡旋中，地区伤亡人数攀升",
+      "link": "https://news.un.org/zh/story/2026/03/1141732"
+    },
     {
       "date": "2026年3月5日",
       "event": "冲突进入第6天：伊朗向卡塔尔发射导弹击中美军乌代德空军基地",
@@ -219,6 +239,10 @@
   ],
   "usActions": [
     {
+      "text": "3月5日 - 美防长：行动「才刚刚开始」，将动用无限量精准炸弹空袭伊朗",
+      "link": "https://www.voachinese.com/a/hegseth-pentagon-press-briefing-20260304/8121245.html"
+    },
+    {
       "text": "3月5日 - 美防长：伊朗导弹打击下降86%，无人机下降73%，美国「正在赢」",
       "link": "events/day6-conflict.html"
     },
@@ -264,6 +288,14 @@
     }
   ],
   "iranActions": [
+    {
+      "text": "3月5日 - 伊朗特工曾与美国秘密接触，试图谈判停战",
+      "link": "https://cn.nytimes.com/world/20260305/trump-iran-intelligence-leaders/"
+    },
+    {
+      "text": "3月5日 - 誓言全力以赴打赢「存亡之战」",
+      "link": "https://www.news.cn/20260305/408b2a3204f042d89afaa0c020fb80cf/c.html"
+    },
     {
       "text": "3月5日 - 向卡塔尔发射2枚弹道导弹，1枚击中美军乌代德空军基地",
       "link": "events/day6-conflict.html"
