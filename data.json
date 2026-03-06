@@ -1,11 +1,61 @@
 {
-  "updateTime": "2026年03月06日 10:17 (GMT+8)",
+  "updateTime": "2026年03月06日 16:10 (GMT+8)",
   "status": {
     "alertLevel": "严重",
     "straitStatus": "全面封锁",
-    "oilPrice": "↑ 暴涨13%"
+    "oilPrice": "↑ 暴涨至$80+"
   },
   "timeline": [
+    {
+      "date": "2026年3月6日",
+      "event": "冲突进入第七天：美军向伊朗投下数十枚2000磅级穿透弹，以色列称军事行动进入「下一阶段」",
+      "link": "https://www.caixin.com/"
+    },
+    {
+      "date": "2026年3月6日",
+      "event": "美军潜艇击沉伊朗军舰，澳专家：合法性存疑",
+      "link": "https://www.cyol.com/"
+    },
+    {
+      "date": "2026年3月6日",
+      "event": "近两万名美国公民从中东返美，美政府加大撤侨航班力度",
+      "link": "https://www.voachinese.com/"
+    },
+    {
+      "date": "2026年3月6日",
+      "event": "特朗普妄称「必须亲自参与」选定伊朗新领导人",
+      "link": "https://finance.sina.com.cn/"
+    },
+    {
+      "date": "2026年3月6日",
+      "event": "伊朗第21轮反击启动，宣称「突破以色列7层防御」，击中美军「林肯」号航母",
+      "link": "https://finance.sina.com.cn/"
+    },
+    {
+      "date": "2026年3月6日",
+      "event": "伊朗称用无人机袭击美航母",
+      "link": "https://finance.sina.com.cn/"
+    },
+    {
+      "date": "2026年3月6日",
+      "event": "中国、朝鲜、俄罗斯，伊朗「友邦」为何无人出手相助？",
+      "link": "https://cn.nytimes.com/"
+    },
+    {
+      "date": "2026年3月6日",
+      "event": "美以袭击伊朗，带给中俄七点启示",
+      "link": "https://www.guancha.cn/"
+    },
+    {
+      "date": "2026年3月6日",
+      "event": "霍尔木兹海峡：能过的要么中国船，要么伊朗船",
+      "link": "https://www.guancha.cn/"
+    },
+    {
+      "date": "2026年3月6日",
+      "event": "国际油价大涨",
+      "link": "https://finance.sina.com.cn/"
+    },
     {
       "date": "2026年3月6日",
       "event": "Trump政府官员就伊朗冲突向国会进行简报",
@@ -304,6 +354,22 @@
   ],
   "usActions": [
     {
+      "text": "3月6日 - 美军向伊朗投下数十枚2000磅级穿透弹",
+      "link": "https://www.caixin.com/"
+    },
+    {
+      "text": "3月6日 - 美军潜艇击沉伊朗军舰",
+      "link": "https://www.cyol.com/"
+    },
+    {
+      "text": "3月6日 - 近两万名美国公民从中东返美",
+      "link": "https://www.voachinese.com/"
+    },
+    {
+      "text": "3月6日 - 特朗普妄称「必须亲自参与」选定伊朗新领导人",
+      "link": "https://finance.sina.com.cn/"
+    },
+    {
       "text": "3月6日 - Trump政府官员就伊朗冲突向国会进行简报",
       "link": "https://www.voachinese.com/"
     },
@@ -369,6 +435,18 @@
     }
   ],
   "iranActions": [
+    {
+      "text": "3月6日 - 第21轮反击启动，宣称「突破以色列7层防御」",
+      "link": "https://finance.sina.com.cn/"
+    },
+    {
+      "text": "3月6日 - 击中美军「林肯」号航母",
+      "link": "https://finance.sina.com.cn/"
+    },
+    {
+      "text": "3月6日 - 称用无人机袭击美航母",
+      "link": "https://finance.sina.com.cn/"
+    },
     {
       "text": "3月5日 - 开始第十八轮行动，高超音速导弹突破萨德系统",
       "link": "events/day6-update.html"
