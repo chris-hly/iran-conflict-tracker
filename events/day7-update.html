@@ -3,116 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2026年3月6日 伊朗冲突第七天 - 美伊冲突实时追踪</title>
+    <title>2026年3月6日 冲突第七天 - 美伊冲突实时追踪</title>
+    <link rel="stylesheet" href="../style.css">
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; line-height: 1.6; }
-        h1 { color: #d32f2f; border-bottom: 3px solid #d32f2f; padding-bottom: 10px; }
-        h2 { color: #1976d2; margin-top: 30px; }
-        .event { margin: 15px 0; padding: 15px; background: #f5f5f5; border-radius: 8px; }
-        .time { color: #666; font-size: 0.9em; }
-        .highlight { background: #ffebee; border-left: 4px solid #d32f2f; }
-        .back { display: inline-block; margin-top: 20px; padding: 10px 20px; background: #1976d2; color: white; text-decoration: none; border-radius: 5px; }
+        .event-detail { max-width: 800px; margin: 0 auto; padding: 20px; }
+        .event-header { border-bottom: 2px solid #ff6b6b; padding-bottom: 25px; margin-bottom: 30px; }
+        .event-time { color: #ff6b6b; font-size: 1.2rem; margin-bottom: 10px; }
+        .event-title { font-size: 2rem; margin-bottom: 15px; }
+        .event-content { line-height: 1.8; color: #ccc; }
+        .event-content h3 { color: #4ecdc4; margin: 25px 0 15px 0; }
+        .back-link { display: inline-block; margin-bottom: 20px; color: #4ecdc4; }
+        .source-box { background: rgba(0,0,0,0.3); padding: 15px; border-radius: 8px; margin-top: 30px; }
+        .highlight { background: rgba(255,107,107,0.2); padding: 2px 6px; border-radius: 4px; }
+        .event-table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        .event-table th, .event-table td { padding: 15px; text-align: left; border-bottom: 1px solid rgba(255,255,255,0.1); }
+        .event-table th { color: #888; font-weight: 500; }
+        .status-critical { color: #ff6b6b; font-weight: 700; }
+        .status-warning { color: #ffd93d; font-weight: 700; }
+        .alert-box { background: rgba(255,107,107,0.1); border-left: 3px solid #ff6b6b; padding: 20px; margin: 20px 0; }
+        .analysis-box { background: rgba(78,205,196,0.1); border-left: 3px solid #4ecdc4; padding: 20px; margin: 20px 0; }
+        blockquote { border-left: 3px solid #4ecdc4; padding-left: 15px; margin: 15px 0; color: #aaa; font-style: italic; }
+        .impact-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; margin: 20px 0; }
+        .impact-card { background: rgba(0,0,0,0.3); padding: 20px; border-radius: 8px; text-align: center; }
+        .impact-card .value { font-size: 2rem; font-weight: 700; margin-bottom: 5px; }
+        .impact-card .label { color: #888; font-size: 0.9rem; }
+        .impact-up .value { color: #ff6b6b; }
     </style>
 </head>
 <body>
-    <a href="../index.html">← 返回主页</a>
-    
-    <h1>🔴 2026年3月6日 冲突第七天</h1>
-    
-    <h2>📊 战况综述</h2>
-    <div class="event highlight">
-        <p>冲突进入第七天，局势进一步升级。美军向伊朗投下数十枚2000磅级穿透弹，以色列称军事行动进入"下一阶段"。伊朗发动第21轮反击，宣称突破以色列7层防御系统，并击中美军"林肯"号航母。国际油价大涨。</p>
+    <div class="container">
+        <div class="event-detail">
+            <a href="../index.html" class="back-link">← 返回主页</a>
+            
+            <div class="event-header">
+                <div class="event-time">📅 2026年3月6日</div>
+                <h1 class="event-title">🔴 冲突第七天：战事急剧升级</h1>
+            </div>
+            
+            <div class="event-content">
+                <div class="alert-box">
+                    <h3>🚨 今日重大事件</h3>
+                    <ul>
+                        <li>美军向伊朗投下数十枚<span class="highlight">2000磅级穿透弹</span></li>
+                        <li>美军潜艇<span class="highlight">击沉伊朗军舰</span></li>
+                        <li>伊朗第<span class="highlight">21轮</span>反击启动</li>
+                        <li>伊朗宣称<span class="highlight">击中美军「林肯」号航母</span></li>
+                        <li>以色列称军事行动进入<span class="highlight">「下一阶段」</span></li>
+                        <li>近两万名美国公民从中东返美</li>
+                    </ul>
+                </div>
+                
+                <h3>📊 战况速览</h3>
+                <table class="event-table">
+                    <thead><tr><th>类别</th><th>详情</th></tr></thead>
+                    <tbody>
+                        <tr><td>美军打击</td><td>向伊朗投下数十枚2000磅级穿透弹</td></tr>
+                        <tr><td>海军行动</td><td>美军潜艇击沉伊朗军舰</td></tr>
+                        <tr><td>伊朗反击</td><td>第21轮反击，突破以色列7层防御</td></tr>
+                        <tr><td>航母遇袭</td><td class="status-critical">伊朗击中美军林肯号航母</td></tr>
+                        <tr><td>以军计划</td><td>军事行动进入"下一阶段"</td></tr>
+                    </tbody>
+                </table>
+                
+                <h3>📢 各方表态</h3>
+                <blockquote>
+                    <p><strong>特朗普：</strong>妄称"必须亲自参与"选定伊朗新领导人</p>
+                </blockquote>
+                <blockquote>
+                    <p><strong>Trump：</strong>美国有能力持续作战超过5周</p>
+                </blockquote>
+                <blockquote>
+                    <p><strong>西班牙：</strong>拒绝美军使用基地攻伊，桑切斯反击"不要战争"</p>
+                </blockquote>
+                <blockquote>
+                    <p><strong>梵蒂冈：</strong>圣座驻科威特大使称长期战争对谁都没好处</p>
+                </blockquote>
+                
+                <h3>🌍 国际影响</h3>
+                <div class="analysis-box">
+                    <ul>
+                        <li><strong>油价：</strong>国际油价大涨</li>
+                        <li><strong>航运：</strong>霍尔木兹海峡：能过的要么中国船，要么伊朗船</li>
+                        <li><strong>撤侨：</strong>近两万名美国公民从中东返美</li>
+                        <li><strong>航班：</strong>多条航班因中东冲突取消/延误</li>
+                        <li><strong>地区：</strong>黎巴嫩、伊拉克卷入冲突波及区</li>
+                        <li><strong>北约：</strong>土耳其导弹事件，保持警惕</li>
+                    </ul>
+                </div>
+                
+                <h3>🗺️ 各方态度</h3>
+                <ul>
+                    <li><strong>中国：</strong>伊朗"友邦"为何无人出手相助？</li>
+                    <li><strong>朝鲜/俄罗斯：</strong>同样保持观望态度</li>
+                    <li><strong>澳大利亚：</strong>专家质疑美军潜艇击沉伊朗军舰的合法性</li>
+                </ul>
+                
+                <div class="source-box">
+                    <h4>📰 相关页面</h4>
+                    <ul>
+                        <li><a href="day6-update.html">第六天：伊朗高超音速导弹突破萨德</a></li>
+                        <li><a href="war-analysis.html">战争走势分析与影响预测</a></li>
+                        <li><a href="../index.html">返回主页查看完整时间线</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
-    
-    <h2>🇺🇸 美国动态</h2>
-    <div class="event">
-        <span class="time">3月6日</span>
-        <p><strong>美军向伊朗投下数十枚2000磅级穿透弹</strong></p>
-        <p>美军使用重型钻地炸弹对伊朗境内目标实施打击。</p>
-    </div>
-    <div class="event">
-        <span class="time">3月6日</span>
-        <p><strong>美军潜艇击沉伊朗军舰</strong></p>
-        <p>美军潜艇在波斯湾击沉伊朗军舰，澳大利亚专家对合法性提出质疑。</p>
-    </div>
-    <div class="event">
-        <span class="time">3月6日</span>
-        <p><strong>近两万名美国公民从中东返美</strong></p>
-        <p>美国政府加大撤侨航班力度。</p>
-    </div>
-    <div class="event">
-        <span class="time">3月6日</span>
-        <p><strong>特朗普妄称"必须亲自参与"选定伊朗新领导人</strong></p>
-        <p>在哈梅内伊之子梅杰塔·哈梅内伊可能继任之际，特朗普做出此番表态。</p>
-    </div>
-    <div class="event">
-        <span class="time">3月6日</span>
-        <p><strong>Trump政府官员就伊朗冲突向国会进行简报</strong></p>
-    </div>
-    <div class="event">
-        <span class="time">3月6日</span>
-        <p><strong>Trump：美国有能力持续作战超过5周</strong></p>
-    </div>
-    <div class="event">
-        <span class="time">3月6日</span>
-        <p><strong>西班牙与美国就使用军事基地问题发生争执</strong></p>
-    </div>
-    
-    <h2>🇮🇷 伊朗动态</h2>
-    <div class="event">
-        <span class="time">3月6日</span>
-        <p><strong>第21轮反击启动，宣称"突破以色列7层防御"</strong></p>
-        <p>伊朗发动第21轮反击行动。</p>
-    </div>
-    <div class="event">
-        <span class="time">3月6日</span>
-        <p><strong>击中美军"林肯"号航母</strong></p>
-        <p>伊朗宣称使用导弹击中美军林肯号航母。</p>
-    </div>
-    <div class="event">
-        <span class="time">3月6日</span>
-        <p><strong>称用无人机袭击美航母</strong></p>
-    </div>
-    
-    <h2>🌍 国际影响</h2>
-    <div class="event">
-        <span class="time">3月6日</span>
-        <p><strong>国际油价大涨</strong></p>
-    </div>
-    <div class="event">
-        <span class="time">3月6日</span>
-        <p><strong>中国、朝鲜、俄罗斯为何不出手相助？</strong></p>
-        <p>纽约时报分析伊朗"友邦"无人出手的原因。</p>
-    </div>
-    <div class="event">
-        <span class="time">3月6日</span>
-        <p><strong>美以袭击伊朗，带给中俄七点启示</strong></p>
-    </div>
-    <div class="event">
-        <span class="time">3月6日</span>
-        <p><strong>霍尔木兹海峡：能过的要么中国船，要么伊朗船</strong></p>
-    </div>
-    <div class="event">
-        <span class="time">3月6日</span>
-        <p><strong>黎巴嫩、伊拉克卷入冲突波及区</strong></p>
-    </div>
-    <div class="event">
-        <span class="time">3月6日</span>
-        <p><strong>土耳其导弹事件，北约保持警惕</strong></p>
-    </div>
-    <div class="event">
-        <span class="time">3月6日</span>
-        <p><strong>圣座驻科威特大使：长期战争对谁都没好处</strong></p>
-    </div>
-    <div class="event">
-        <span class="time">3月6日</span>
-        <p><strong>中国公民从伊朗撤离</strong></p>
-    </div>
-    <div class="event">
-        <span class="time">3月6日</span>
-        <p><strong>多条航班因中东冲突取消/延误</strong></p>
-    </div>
-    
-    <a href="../index.html" class="back">← 返回主页</a>
 </body>
 </html>
