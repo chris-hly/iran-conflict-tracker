@@ -1,12 +1,61 @@
 {
-  "updateTime": "2026年03月06日 16:10 (GMT+8)",
+  "updateTime": "2026年03月09日 10:10 (GMT+8)",
   "status": {
     "alertLevel": "严重",
     "straitStatus": "全面封锁",
-    "oilPrice": "↑ 暴涨至$80+"
+    "oilPrice": "↑ 持续暴涨"
   },
   "timeline": [
     {
+      "date": "2026年3月9日",
+      "event": "伊朗战争迈入第二周：俄情报支援德黑兰，美国冷处理",
+      "link": "https://www.dw.com/zh/%E4%BC%8A%E6%9C%97%E6%88%98%E4%BA%89%E8%BF%88%E5%85%A5%E7%AC%AC%E4%BA%8C%E5%91%A8%E4%BF%84%E6%83%85%E6%8A%A5%E6%94%AF%E6%8F%B4%E5%BE%B7%E9%BB%91%E5%85%B0-%E7%BE%8E%E5%9B%BD%E5%86%B7%E5%A4%84%E7%90%86/a-76258992"
+    },
+    {
+      "date": "2026年3月9日",
+      "event": "美军3天内击沉42艘伊朗海军舰艇，瘫痪伊朗通信系统",
+      "link": "https://www.news.cn/world/20260308/0e6375a323834fb1ae360da62756851b/c.html"
+    },
+    {
+      "date": "2026年3月9日",
+      "event": "伊朗称有能力至少再战六个月，并持续袭击海湾国家，海水淡化厂成为攻击新目标",
+      "link": "https://www.rfi.fr/cn/%E6%94%BF%E6%B2%BB/20260308-%E4%BC%8A%E6%9C%97%E7%A7%B0%E6%9C%89%E8%83%BD%E5%8A%9B%E8%87%B3%E5%B0%91%E5%86%8D%E6%88%98%E5%85%AD%E4%B8%AA%E6%9C%88%EF%BC%8C%E5%B9%B6%E6%8C%81%E7%BB%AD%E8%A2%AD%E5%87%BB%E6%B5%B7%E6%B9%BE%E5%9B%BD%E5%AE%B6%EF%BC%8C%E6%B5%B7%E6%B0%B4%E6%B7%A1%E5%8C%96%E5%8E%82%E6%88%90%E4%B8%BA%E6%94%BB%E5%87%BB%E7%9B%AE%E6%A0%87"
+    },
+    {
+      "date": "2026年3月9日",
+      "event": "伊朗媒体称专家会议已就哈梅内伊接任者达成一致",
+      "link": "https://www.bbc.com/zhongwen/articles/cly2pve5yj3o/simp"
+    },
+    {
+      "date": "2026年3月8日",
+      "event": "德黑兰油库起火，以色列首次空袭伊朗首都德黑兰油库",
+      "link": "https://www.dw.com/zh/%E4%B8%AD%E4%B8%9C%E6%88%98%E5%86%B5%E5%BE%B7%E9%BB%91%E5%85%B0%E6%B2%B9%E5%BA%93%E8%B5%B7%E7%81%AB-%E4%BC%8A%E6%9C%97%E5%86%8D%E8%A2%AD%E6%B5%B7%E6%B9%BE%E5%9B%BD%E5%AE%B6/a-76266659"
+    },
+    {
+      "date": "2026年3月8日",
+      "event": "以色列炸毁德黑兰机场",
+      "link": ""
+    },
+    {
+      "date": "2026年3月8日",
+      "event": "伊朗向科威特、卡塔尔和沙特阿拉伯境内目标发射导弹和无人机",
+      "link": "https://www.dw.com/zh/%E4%B8%AD%E4%B8%9C%E6%88%98%E5%86%B5%E5%BE%B7%E9%BB%91%E5%85%B0%E6%B2%B9%E5%BA%93%E8%B5%B7%E7%81%AB-%E4%BC%8A%E6%9C%97%E5%86%8D%E8%A2%AD%E6%B5%B7%E6%B9%BE%E5%9B%BD%E5%AE%B6/a-76266659"
+    },
+    {
+      "date": "2026年3月8日",
+      "event": "美以对伊朗军事打击进入第9天",
+      "link": "https://www.jfdaily.com/news/detail?id=1078329"
+    },
+    {
+      "date": "2026年3月8日",
+      "event": "伊朗向邻国致歉：除非遭受袭击，否则不再以邻国为打击目标",
+      "link": "https://www.jfdaily.com/news/detail?id=1078329"
+    },
+    {
+      "date": "2026年3月8日",
+      "event": "美国50多个城市爆发反战抗议活动，呼吁停止对伊朗动武",
+      "link": "https://www.news.cn/world/20260308/4c407335142346df9deef447483fd314/c.html"
+    },
       "date": "2026年3月6日",
       "event": "冲突进入第七天：美军向伊朗投下数十枚2000磅级穿透弹，以色列称军事行动进入「下一阶段」",
       "link": "events/day7-update.html"
@@ -354,6 +403,13 @@
   ],
   "usActions": [
     {
+      "text": "3月8日 - 美军3天内击沉42艘伊朗海军舰艇，瘫痪伊朗通信系统",
+      "link": "https://www.news.cn/world/20260308/0e6375a323834fb1ae360da62756851b/c.html"
+    },
+    {
+      "text": "3月8日 - 美以对伊朗军事打击进入第9天",
+      "link": "https://www.jfdaily.com/news/detail?id=1078329"
+    },
       "text": "3月6日 - 美军向伊朗投下数十枚2000磅级穿透弹",
       "link": "events/day7-update.html"
     },
@@ -436,6 +492,33 @@
   ],
   "iranActions": [
     {
+      "text": "3月9日 - 伊朗称有能力至少再战六个月",
+      "link": "https://www.rfi.fr/cn/%E6%94%BF%E6%B2%BB/20260308-%E4%BC%8A%E6%9C%97%E7%A7%B0%E6%9C%89%E8%83%BD%E5%8A%9B%E8%87%B3%E5%B0%91%E5%86%8D%E6%88%98%E5%85%AD%E4%B8%AA%E6%9C%88%EF%BC%8C%E5%B9%B6%E6%8C%81%E7%BB%AD%E8%A2%AD%E5%87%BB%E6%B5%B7%E6%B9%BE%E5%9B%BD%E5%AE%B6%EF%BC%8C%E6%B5%B7%E6%B0%B4%E6%B7%A1%E5%8C%96%E5%8E%82%E6%88%90%E4%B8%BA%E6%94%BB%E5%87%BB%E7%9B%AE%E6%A0%87"
+    },
+    {
+      "text": "3月9日 - 持续袭击海湾国家，海水淡化厂成为攻击新目标",
+      "link": "https://www.rfi.fr/cn/%E6%94%BF%E6%B2%BB/20260308-%E4%BC%8A%E6%9C%97%E7%A7%B0%E6%9C%89%E8%83%BD%E5%8A%9B%E8%87%B3%E5%B0%91%E5%86%8D%E6%88%98%E5%85%AD%E4%B8%AA%E6%9C%88%EF%BC%8C%E5%B9%B6%E6%8C%81%E7%BB%AD%E8%A2%AD%E5%87%BB%E6%B5%B7%E6%B9%BE%E5%9B%BD%E5%AE%B6%EF%BC%8C%E6%B5%B7%E6%B0%B4%E6%B7%A1%E5%8C%96%E5%8E%82%E6%88%90%E4%B8%BA%E6%94%BB%E5%87%BB%E7%9B%AE%E6%A0%87"
+    },
+    {
+      "text": "3月9日 - 伊朗媒体称专家会议已就哈梅内伊接任者达成一致",
+      "link": "https://www.bbc.com/zhongwen/articles/cly2pve5yj3o/simp"
+    },
+    {
+      "text": "3月8日 - 德黑兰油库起火，以色列首次空袭德黑兰油库",
+      "link": "https://www.dw.com/zh/%E4%B8%AD%E4%B8%9C%E6%88%98%E5%86%B5%E5%BE%B7%E9%BB%91%E5%85%B0%E6%B2%B9%E5%BA%93%E8%B5%B7%E7%81%AB-%E4%BC%8A%E6%9C%97%E5%86%8D%E8%A2%AD%E6%B5%B7%E6%B9%BE%E5%9B%BD%E5%AE%B6/a-76266659"
+    },
+    {
+      "text": "3月8日 - 炸毁德黑兰机场",
+      "link": ""
+    },
+    {
+      "text": "3月8日 - 向科威特、卡塔尔和沙特发射导弹和无人机",
+      "link": "https://www.dw.com/zh/%E4%B8%AD%E4%B8%9C%E6%88%98%E5%86%B5%E5%BE%B7%E9%BB%91%E5%85%B0%E6%B2%B9%E5%BA%93%E8%B5%B7%E7%81%AB-%E4%BC%8A%E6%9C%97%E5%86%8D%E8%A2%AD%E6%B5%B7%E6%B9%BE%E5%9B%BD%E5%AE%B6/a-76266659"
+    },
+    {
+      "text": "3月8日 - 向邻国致歉：除非遭受袭击，否则不再以邻国为打击目标",
+      "link": "https://www.jfdaily.com/news/detail?id=1078329"
+    },
       "text": "3月6日 - 第21轮反击启动，宣称「突破以色列7层防御」",
       "link": "events/day7-update.html"
     },
@@ -570,16 +653,28 @@
   ],
   "regionalActors": [
     {
-      "name": "伊拉克",
-      "status": "受波及",
-      "actions": "卷入冲突波及区",
-      "link": ""
+      "name": "科威特",
+      "status": "受攻击",
+      "actions": "伊朗向科威特发射导弹和无人机，海水淡化厂成为攻击目标",
+      "link": "https://www.rfi.fr/cn/%E6%94%BF%E6%B2%BB/20260308-%E4%BC%8A%E6%9C%97%E7%A7%B0%E6%9C%89%E8%83%BD%E5%8A%9B%E8%87%B3%E5%B0%91%E5%86%8D%E6%88%98%E5%85%AD%E4%B8%AA%E6%9C%88%EF%BC%8C%E5%B9%B6%E6%8C%81%E7%BB%AD%E8%A2%AD%E5%87%BB%E6%B5%B7%E6%B9%BE%E5%9B%BD%E5%AE%B6%EF%BC%8C%E6%B5%B7%E6%B0%B4%E6%B7%A1%E5%8C%96%E5%8E%82%E6%88%90%E4%B8%BA%E6%94%BB%E5%87%BB%E7%9B%AE%E6%A0%87"
     },
     {
       "name": "卡塔尔",
       "status": "受攻击",
-      "actions": "伊朗向卡塔尔发射2枚弹道导弹，1枚击中美军乌代德空军基地",
-      "link": "events/day6-conflict.html"
+      "actions": "伊朗向卡塔尔发射导弹和无人机",
+      "link": "https://www.dw.com/zh/%E4%B8%AD%E4%B8%9C%E6%88%98%E5%86%B5%E5%BE%B7%E9%BB%91%E5%85%B0%E6%B2%B9%E5%BA%93%E8%B5%B7%E7%81%AB-%E4%BC%8A%E6%9C%97%E5%86%8D%E8%A2%AD%E6%B5%B7%E6%B9%BE%E5%9B%BD%E5%AE%B6/a-76266659"
+    },
+    {
+      "name": "沙特阿拉伯",
+      "status": "受攻击",
+      "actions": "伊朗向沙特发射导弹和无人机，海水淡化厂成为攻击目标",
+      "link": "https://www.rfi.fr/cn/%E6%94%BF%E6%B2%BB/20260308-%E4%BC%8A%E6%9C%97%E7%A7%B0%E6%9C%89%E8%83%BD%E5%8A%9B%E8%87%B3%E5%B0%91%E5%86%8D%E6%88%98%E5%85%AD%E4%B8%AA%E6%9C%88%EF%BC%8C%E5%B9%B6%E6%8C%81%E7%BB%AD%E8%A2%AD%E5%87%BB%E6%B5%B7%E6%B9%BE%E5%9B%BD%E5%AE%B6%EF%BC%8C%E6%B5%B7%E6%B0%B4%E6%B7%A1%E5%8C%96%E5%8E%82%E6%88%90%E4%B8%BA%E6%94%BB%E5%87%BB%E7%9B%AE%E6%A0%87"
+    },
+    {
+      "name": "伊拉克",
+      "status": "受波及",
+      "actions": "卷入冲突波及区",
+      "link": ""
     },
     {
       "name": "真主党（黎巴嫩）",
@@ -687,6 +782,25 @@
   ],
   "statements": [
     {
+      "country": "🇮🇷 伊朗",
+      "content": "伊朗：有能力至少再战六个月"
+    },
+    {
+      "country": "🇮🇷 伊朗",
+      "content": "向邻国致歉：除非遭受袭击，否则不再以邻国为打击目标"
+    },
+    {
+      "country": "🇷🇺 俄罗斯",
+      "content": "情报支援德黑兰"
+    },
+    {
+      "country": "🇺🇸 美国",
+      "content": "美军3天内击沉42艘伊朗海军舰艇，瘫痪伊朗通信系统"
+    },
+    {
+      "country": "🇺🇸 美国",
+      "content": "50多个城市爆发反战抗议，呼吁停止对伊朗动武"
+    },
       "country": "🇺🇸 美国",
       "content": "Trump：美国有能力持续作战超过5周"
     },
@@ -729,7 +843,7 @@
   ],
   "warAnalysis": {
     "title": "战争走势分析与影响预测",
-    "summary": "战争进入第6天，伊朗首次攻击卡塔尔美军基地，战火蔓延至整个中东。伊朗据报愿与美国谈判停战，但同时誓言「未来几天回击更猛更广」。美以声称「正在赢」，但特朗普承认难预判冲突走向。",
+    "summary": "战争进入第9天，美以持续对伊朗发动攻击。美军声称击沉42艘伊朗舰艇，瘫痪伊朗通信系统。伊朗仍保持反击能力，声称可再战六个月，并持续袭击海湾国家，海水淡化厂成为新攻击目标。俄罗斯被曝情报支援德黑兰。美国内反战情绪升温，50多个城市爆发抗议。",
     "predictions": [
       {
         "category": "持续时间",
