@@ -1,11 +1,41 @@
 {
-  "updateTime": "2026年03月09日 10:10 (GMT+8)",
+  "updateTime": "2026年03月09日 15:50 (GMT+8)",
   "status": {
     "alertLevel": "严重",
     "straitStatus": "全面封锁",
     "oilPrice": "↑ 持续暴涨"
   },
   "timeline": [
+    {
+      "date": "2026年3月9日",
+      "event": "战争进入第10天：美军第7人阵亡，以色列首度有士兵阵亡",
+      "link": "https://www.rfi.fr/cn/%E4%B8%AD%E4%B8%9C/20260308-%E7%BE%8E%E4%BB%A5%E5%BC%80%E6%88%98%E4%BC%8A%E6%9C%97-%E7%BE%8E%E5%86%9B%E9%98%B5%E4%BA%A1%E6%B7%BB%E4%B8%80%E4%BA%BA-%E4%BB%A5%E5%86%9B%E9%A6%96%E5%BA%A6%E6%9C%89%E5%A3%AB%E5%85%B5%E9%98%B5%E4%BA%A1"
+    },
+    {
+      "date": "2026年3月9日",
+      "event": "特朗普对伊朗新任最高领袖穆杰塔巴·哈梅内伊感到不满意",
+      "link": "https://www.zaobao.com.sg/news/world/story20260309-8701212"
+    },
+    {
+      "date": "2026年3月9日",
+      "event": "胡塞武装祝贺穆杰塔巴当选伊朗最高领袖：对敌人的沉重打击",
+      "link": "https://www.zaobao.com.sg/news/world/story20260309-8701212"
+    },
+    {
+      "date": "2026年3月9日",
+      "event": "伊朗密集轰炸美国大使馆，以色列炼油厂被导弹摧毁",
+      "link": "https://www.youtube.com/watch?v=ELazCmpWB-s"
+    },
+    {
+      "date": "2026年3月9日",
+      "event": "德黑兰降黑色石油雨！以军狂炸伊朗空军总部和油库",
+      "link": "https://www.youtube.com/watch?v=uc8aeek8Yx4"
+    },
+    {
+      "date": "2026年3月9日",
+      "event": "伊朗狂轰美以200基地设施，美军遭俘虏，七座雷达被毁",
+      "link": "https://www.youtube.com/watch?v=MucfugaYj8o"
+    },
     {
       "date": "2026年3月9日",
       "event": "伊朗战争迈入第二周：俄情报支援德黑兰，美国冷处理",
@@ -784,6 +814,22 @@
     }
   ],
   "statements": [
+    {
+      "country": "🇺🇸 美国",
+      "content": "美军第7人阵亡：一名在沙特阿拉伯服役的军人因伊朗攻击受伤身亡"
+    },
+    {
+      "country": "🇮🇱 以色列",
+      "content": "战争爆发以来首度有士兵阵亡"
+    },
+    {
+      "country": "🇺🇸 特朗普",
+      "content": "对伊朗新任最高领袖穆杰塔巴感到不满意"
+    },
+    {
+      "country": "🇾🇪 胡塞武装",
+      "content": "祝贺穆杰塔巴当选伊朗最高领袖：对敌人的沉重打击"
+    },
     {
       "country": "🇮🇷 伊朗",
       "content": "伊朗：有能力至少再战六个月"
