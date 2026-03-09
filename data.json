@@ -56,6 +56,7 @@
       "event": "美国50多个城市爆发反战抗议活动，呼吁停止对伊朗动武",
       "link": "https://www.news.cn/world/20260308/4c407335142346df9deef447483fd314/c.html"
     },
+    {
       "date": "2026年3月6日",
       "event": "冲突进入第七天：美军向伊朗投下数十枚2000磅级穿透弹，以色列称军事行动进入「下一阶段」",
       "link": "events/day7-update.html"
@@ -410,6 +411,7 @@
       "text": "3月8日 - 美以对伊朗军事打击进入第9天",
       "link": "https://www.jfdaily.com/news/detail?id=1078329"
     },
+    {
       "text": "3月6日 - 美军向伊朗投下数十枚2000磅级穿透弹",
       "link": "events/day7-update.html"
     },
@@ -519,6 +521,7 @@
       "text": "3月8日 - 向邻国致歉：除非遭受袭击，否则不再以邻国为打击目标",
       "link": "https://www.jfdaily.com/news/detail?id=1078329"
     },
+    {
       "text": "3月6日 - 第21轮反击启动，宣称「突破以色列7层防御」",
       "link": "events/day7-update.html"
     },
@@ -801,6 +804,7 @@
       "country": "🇺🇸 美国",
       "content": "50多个城市爆发反战抗议，呼吁停止对伊朗动武"
     },
+    {
       "country": "🇺🇸 美国",
       "content": "Trump：美国有能力持续作战超过5周"
     },
