@@ -9,47 +9,47 @@
     {
       "date": "2026年3月10日",
       "event": "冲突进入第11天：伊朗启动「真实承诺-4」行动计划，动用导弹和无人机打击中东多国美军基地",
-      "link": ""
+      "link": "events/day11-update.html"
     },
     {
       "date": "2026年3月10日",
       "event": "伊朗导弹击中科威特境内美军乌代里直升机基地",
-      "link": ""
+      "link": "events/day11-update.html"
     },
     {
       "date": "2026年3月10日",
       "event": "伊朗导弹击中以色列特拉维夫和海法军事目标",
-      "link": ""
+      "link": "events/day11-update.html"
     },
     {
       "date": "2026年3月10日",
       "event": "美军确认冲突以来死亡人数达8人",
-      "link": ""
+      "link": "events/day11-update.html"
     },
     {
       "date": "2026年3月10日",
       "event": "冲突第一周花费约60亿美元",
-      "link": ""
+      "link": "events/day11-update.html"
     },
     {
       "date": "2026年3月10日",
       "event": "中国外交部：呼吁立即停止军事行动，尽快重回对话谈判",
-      "link": ""
+      "link": "events/day11-update.html"
     },
     {
       "date": "2026年3月10日",
       "event": "伊朗总统：无意对邻国开战，但会继续抵抗美国和以色列",
-      "link": ""
+      "link": "events/day11-update.html"
     },
     {
       "date": "2026年3月10日",
       "event": "伊朗新任最高领袖穆杰塔巴·哈梅内伊下令加强对美以反击",
-      "link": ""
+      "link": "events/day11-update.html"
     },
     {
       "date": "2026年3月10日",
       "event": "以色列国防部长宣布对伊朗实施先发制人的军事打击",
-      "link": ""
+      "link": "events/day11-update.html"
     },
     {
       "date": "2026年3月9日",
@@ -1034,5 +1034,10 @@
         "detail": "欧盟警告可能引发规模空前的难民潮，对欧洲社会造成巨大压力"
       }
     ]
+  },
+  "summary": {
+    "title": "冲突进入第11天：伊朗全面反击",
+    "description": "伊朗启动大规模导弹和无人机袭击，击中科威特美军基地和以色列军事目标。美军死亡人数达8人，冲突首周花费约60亿美元。",
+    "lastUpdated": "2026年3月10日"
   }
 }

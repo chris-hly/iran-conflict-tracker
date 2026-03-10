@@ -38,6 +38,18 @@ function renderSources(sources) {
 function renderData(data) {
     document.getElementById('updateTime').textContent = data.updateTime;
     
+    // Render summary
+    if (data.summary) {
+        const summarySection = document.getElementById('summarySection');
+        const summaryContent = document.getElementById('summaryContent');
+        summaryContent.innerHTML = `
+            <div class="summary-title">${data.summary.title}</div>
+            <div class="summary-desc">${data.summary.description}</div>
+            <a href="events/day11-update.html" class="summary-link">查看详细战报 →</a>
+        `;
+        summarySection.style.display = 'block';
+    }
+    
     if (data.status) {
         document.getElementById('alertLevel').textContent = data.status.alertLevel || '严重';
         document.getElementById('straitStatus').textContent = data.status.straitStatus || '已封锁';
